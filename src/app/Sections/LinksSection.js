@@ -35,7 +35,7 @@ function LinksSection({ lastStage }) {
           {links.map((e, i) => (
             <div
               key={i}
-              className={` border-2 border-[#23212E] border-x-0 p-4 ${
+              className={` border-2 border-[#061e5e] border-x-0 p-4 ${
                 i % 2 == 1 ? "text-right border-x-2" : "border-l-2"
               }`}
             >

@@ -78,7 +78,7 @@ function Services() {
       {/* <div className="grid-container h-[50vh] w-full flex items-center justify-center sm:justify-normal p-10"> */}
   
 <div style={{
-          backgroundImage: "linear-gradient(90deg, rgba(255, 255, 255, 0.2) 1px, transparent 0),linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 0)",
+          backgroundImage: "linear-gradient(90deg, rgba(2, 12, 37, 1.0) 1px, transparent 0),linear-gradient(rgba(2, 12, 37, 1.0) 1px, transparent 0)",
           backgroundSize:"10vh 10vh",
           backgroundPosition:'center'
           // backdropFilter: "blur(24px)",

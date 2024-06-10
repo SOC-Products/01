@@ -17,7 +17,7 @@ function CompanyLogoSlider(params) {
   return (
     <>
       <div
-        className="flex pt-11 w-[66%] min-w-[300px] mx-auto relative"
+        className="flex pt-11 w-[100%] min-w-[300px] mx-auto relative "
         style={{
           overflow: "hidden",
         }}
@@ -30,7 +30,7 @@ function CompanyLogoSlider(params) {
           }}
         ></div>
 
-        <div className="flex[1] flex hide-scrollbar justify-center 3xl:justify-center items-center z-10 relative">
+        <div className="flex[1] flex flex-end hide-scrollbar justify-end w-full items-center z-10 relative">
           {companyLogosList.map((e, i) => (
             <div key={i} className="px-5">
               {e}
