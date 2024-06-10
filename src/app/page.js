@@ -34,8 +34,6 @@ const roboto_mono = Roboto_Mono({ subsets: ["latin"] });
 export default function Home() {
   const { locale } = useLanguage();
   const t = translations[locale];
-
-
   const lastPage = useRef();
   const firstStage = useRef();
   const lastStage = useRef();
@@ -68,49 +66,49 @@ export default function Home() {
   }, []);
   return (
     <>
-    
-          <main
-            className={
-              "min-h-screen items-center justify-between " + roboto_mono.className
-            }
-          >
-            <Header />
-            <div className="vertical-line vertical-line--left z-20"></div>
-            <div className="vertical-line vertical-line--center z-20"></div>
-            <div className="vertical-line vertical-line--right z-20"></div>
 
-            <div ref={mainCanvasRef}>
-          
-              <MainCanvas progress={progress} lastStage={lastStage} firstStage={firstStage} />
-            </div>
+      <main
+        className={
+          "min-h-screen items-center justify-between " + roboto_mono.className
+        }
+      >
+        <Header />
+        <div className="vertical-line vertical-line--left z-20"></div>
+        <div className="vertical-line vertical-line--center z-20"></div>
+        <div className="vertical-line vertical-line--right z-20"></div>
 
-            <HeroSection title={t?.title}  firstStage={firstStage}  />
-            <div className="p-[64px]" ></div>
-            <OurSolution />
-            <div className="p-[64px]" ></div>
-            <RecentWorks />
-            <div className="p-[64px]" ></div>
-            
-            <Process />
-            <div className="p-[64px]" ></div>
+        <div ref={mainCanvasRef}>
 
-            {/* <ChatGPT />
+          <MainCanvas progress={progress} lastStage={lastStage} firstStage={firstStage} />
+        </div>
+
+        <HeroSection title={t?.title} firstStage={firstStage} />
+        <div className="p-[64px]" ></div>
+        <OurSolution />
+        <div className="p-[64px]" ></div>
+        <RecentWorks />
+        <div className="p-[64px]" ></div>
+
+        <Process />
+        <div className="p-[64px]" ></div>
+
+        {/* <ChatGPT />
             <div className="p-[64px]" ></div> */}
 
-            <SwapSection />
-            <div className="p-[64px]" ></div>
+        <SwapSection />
+        <div className="p-[64px]" ></div>
 
-            <LatestArticles />
-            <div className="p-[64px]" ></div>
-            
-            <TeamSection />
-            <div className="p-[64px]" ></div>
-            
-            <FAQSection />
-            <div className="p-[64px]" ></div>
-            <LinksSection lastStage={lastStage} />
-            <Footer footerRef={lastPage} />
-          </main>
+        <LatestArticles />
+        <div className="p-[64px]" ></div>
+
+        <TeamSection />
+        <div className="p-[64px]" ></div>
+
+        <FAQSection />
+        <div className="p-[64px]" ></div>
+        <LinksSection lastStage={lastStage} />
+        <Footer footerRef={lastPage} />
+      </main>
 
     </>
   );
