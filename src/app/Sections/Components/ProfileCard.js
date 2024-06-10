@@ -26,7 +26,7 @@ const team = [
 function ProfileCard({index, profile }) {
 
   return (
-    <div className="border-y-2 border-l-2 border-[#353539] border-opacity-[0.6] ">
+    <div className="border-y-2 border-l-2 border-[#061e5e] border-opacity-[0.6] ">
       <div className="gap-2 pt-5">
         <p className="text-center uppercase">{profile?.name}</p>
       </div>

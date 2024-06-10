@@ -33,7 +33,7 @@ function ServicesList(params) {
         return (
           <div
             key={i}
-            className=" text-right border-t-2 border-[#353539] justify-end flex p-5 pl-[42%]  "
+            className=" text-right border-t-2 border-[#061e5e] justify-end flex p-5 pl-[42%]  "
           >
             <img
               src="https://assets-global.website-files.com/64354b8ce4872ad8cd1c7b04/643550c922d6d3e0dcffd28b_ico-indicator.svg"
@@ -44,7 +44,7 @@ function ServicesList(params) {
           </div>
         );
       })}
-      <div className=" text-right border-t-2 border-[#353539] justify-end flex p-5 pl-[42%] ">
+      <div className=" text-right border-t-2 border-[#061e5e] justify-end flex p-5 pl-[42%] ">
         <p className="paragraph hero-feature-paragraph ">
           <span className="text-[#E2255E]">{t.andMuchMore}</span>
         </p>        

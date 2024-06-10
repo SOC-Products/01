@@ -21,7 +21,7 @@ function RecentWorkCard({ recentWork }) {
   const t = translations[locale];
 
   return (
-    <div className="border-y-2 border-l-2 border-[#353539] border-opacity-[0.6] ">
+    <div className="border-y-2 border-l-2 border-[#061e5e] border-opacity-[0.6] ">
       <div className="flex gap-2 p-5">
         {recentWork.tags.map((e, i) => (
           <p key={i}>{e}</p>
@@ -37,7 +37,7 @@ function RecentWorkCard({ recentWork }) {
         <p>{recentWork.description}</p>
       </div>
       <div>
-        <p className="flex justify-center items-center gap-2 w-full p-3 text-center uppercase border-t-2 border-[#353539] border-opacity-[0.6]">{t?.recentCardButton} {Arrow_45}</p>
+        <p className="flex justify-center items-center gap-2 w-full p-3 text-center uppercase border-t-2 border-[#061e5e] border-opacity-[0.6]">{t?.recentCardButton} {Arrow_45}</p>
       </div>
     </div>
   );

@@ -38,7 +38,7 @@ function FAQSection(params) {
           <>
             <div
               className={
-                `flex justify-between p-5 border-t-2 border-x-2 border-[#353539] border-opacity-[0.6] ` +
+                `flex justify-between p-5 border-t-2 border-x-2 border-[#061e5e] border-opacity-[0.6] ` +
                 (i == questions.length - 1 ? "border-b-2" : "")
               }
               onClick={() => {

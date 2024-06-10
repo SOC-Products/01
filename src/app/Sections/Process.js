@@ -39,7 +39,7 @@ function Process(params) {
             <p className="uppercase text-[10px] m-0 border-t-2 border-x-2 border-[#353539] border-opacity-[.7] w-fit px-2">
               {t?.ProcessStep1}
             </p>
-            <h3 className=" border-y-2 border-l-2 border-[#353539] border-opacity-[.7] text-center m-0 p-2">
+            <h3 className=" border-y-2 border-l-2 border-[#061e5e] border-opacity-[.7] text-center m-0 p-2">
               {t?.ProcessResearch}
             </h3>
           </div>
@@ -47,15 +47,15 @@ function Process(params) {
             <p className="uppercase text-[10px] m-0 border-t-2 border-x-2 border-[#353539] border-opacity-[.7] w-fit px-2">
             {t?.ProcessStep2}
             </p>
-            <h3 className=" border-2  border-[#353539] border-opacity-[.7] text-center m-0 p-2">
+            <h3 className=" border-2  border-[#061e5e] border-opacity-[.7] text-center m-0 p-2">
             {t?.ProcessIdeate}
             </h3>
           </div>
           <div className="w-full my-5">
-            <p className="uppercase text-[10px] m-0 border-t-2 border-x-2 border-[#353539] border-opacity-[.7] w-fit px-2">
+            <p className="uppercase text-[10px] m-0 border-t-2 border-x-2 border-[#061e5e] border-opacity-[.7] w-fit px-2">
             {t?.ProcessStep3}
             </p>
-            <h3 className=" border-y-2 border-l-2 border-[#353539] border-opacity-[.7] text-center m-0 p-2">
+            <h3 className=" border-y-2 border-l-2 border-[#061e5e] border-opacity-[.7] text-center m-0 p-2">
             {t?.ProcessPrototype}
             </h3>
           </div>
