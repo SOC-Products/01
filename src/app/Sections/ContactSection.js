@@ -1,4 +1,7 @@
 import { Indent_Arrow } from "../SVGS/Arrows";
+import { useState } from "react";
+
+import TextInput from './Components/TextInput';
 
 import { useLanguage } from "@/contexts/LanguageContext";
 import en from "../../../src/translations/en.json"
@@ -15,6 +18,12 @@ const translations = {
 
 function ContactSection() {
 
+  const [inputValue, setInputValue] = useState('');
+
+  const handleInputChange = (e) => {
+    setInputValue(e.target.value);
+  };
+
   const { locale } = useLanguage();
   const t = translations[locale];
 
@@ -27,7 +36,7 @@ function ContactSection() {
         <div className="w-[80%] m-auto">
           {contactInfo?.map((item, index) => (
             <div key={index}>
-              <p className="flex   items-center m-0 font-medium text-18 pt-4 leading-7 text-[#524E65]">
+              <p className="flex items-center m-0 font-medium text-18 pt-4 leading-7 text-[#524E65]">
                 <span className="pr-1">{Indent_Arrow}</span>
                 {item.label}
               </p>
@@ -44,10 +53,12 @@ function ContactSection() {
           </p>
           {contactFormFields?.map((field, index) => (
             <div key={index} className="py-5">
-              <input
+              <TextInput
+              value={inputValue[index]}
+              onChange={(e)=>handleInputChange(index,e.target.value)}
                 className="w-full border-b-2 border-[white] p-2 focus-visible:border-none"
                 style={{ background: "none" }}
-                type="text" // Assuming you want text inputs
+                type="text" // Assuming you want  text inputs
                 placeholder={field.placeholder}
               />
             </div>
@@ -60,6 +71,6 @@ function ContactSection() {
         </div>
       </div>
     </div>
-  );
+  ); 
 }
 export default ContactSection;

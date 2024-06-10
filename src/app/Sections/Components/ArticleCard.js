@@ -2,7 +2,7 @@ import { Arrow_45 } from "@/app/SVGS/Arrows";
 
 function ArticleCard({ article }) {
   return (
-    <div className="border-y-2 border-x-2 border-[#061e5e] border-opacity-[0.6] ">
+    <div className="border-y-2 border-x-2 border-[#061e5e] border-opacity-[0.6] mt-[30px] ">
       <div className="flex gap-2 p-5">
         <p>{article.date}</p>
       </div>

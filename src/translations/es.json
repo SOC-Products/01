@@ -81,48 +81,46 @@
     },
     {
       "name": "Desarrollo de cadena de bloques",
-      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
       "links": [
         {
           "name": "Nft Cars",
           "link": "https://nftcars.me/"
         }
-     
       ]
     }
   ],
   "ViewLiveProject": "Ver proyecto en vivo",
   "recentWork": [
-   
     {
-        "name": "VoxSynth - Herramienta de Clonación de Voz",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "image":"https://www.izotope.com/storage-cms/images/0/5/5/9/219550-1-eng-GB/29d086f58967-vocalsynth-2-interactive-visualizations-why.jpg",
-        "link": "https://voxsynth.io",
-        "tags": [
-            "Clonación de Voz",
-            "Procesamiento de Audio"
-        ]
+      "name": "VoxSynth - Herramienta de Clonación de Voz",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "image": "https://www.izotope.com/storage-cms/images/0/5/5/9/219550-1-eng-GB/29d086f58967-vocalsynth-2-interactive-visualizations-why.jpg",
+      "link": "https://voxsynth.io",
+      "tags": [
+        "Clonación de Voz",
+        "Procesamiento de Audio"
+      ]
     },
     {
-        "name": "TextSumm - Herramienta de Resumen Avanzado",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "image":"https://repository-images.githubusercontent.com/216241997/f4108980-9e9d-11ea-8e7c-816b255395a9",
-        "link": "https://textsumm.ai",
-        "tags": [
-            "NLP",
-            "Resumen de Texto"
-        ]
+      "name": "TextSumm - Herramienta de Resumen Avanzado",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "image": "https://repository-images.githubusercontent.com/216241997/f4108980-9e9d-11ea-8e7c-816b255395a9",
+      "link": "https://textsumm.ai",
+      "tags": [
+        "NLP",
+        "Resumen de Texto"
+      ]
     },
     {
-        "name": "VisRecog - Detector de Objetos en Tiempo Real",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "image":"https://assets.website-files.com/6390c443fe95660a5e9a4a2b/6390cf8ec81424b8d5722600_Vix_Logo-18.png",
-        "link": "https://visrecog.tech",
-        "tags": [
-            "Detección de Objetos",
-            "Visión por Computadora"
-        ]
+      "name": "VisRecog - Detector de Objetos en Tiempo Real",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "image": "https://assets.website-files.com/6390c443fe95660a5e9a4a2b/6390cf8ec81424b8d5722600_Vix_Logo-18.png",
+      "link": "https://visrecog.tech",
+      "tags": [
+        "Detección de Objetos",
+        "Visión por Computadora"
+      ]
     }
   ],
   "recentCardButton": "Ver proyecto en vivo",
@@ -211,8 +209,7 @@
       "q": "Các bạn cung cấp dịch vụ gì?",
       "a": "Chúng tôi cung cấp các chương trình giáo dục về công nghệ, ấp ủ ý tưởng đổi mới, cơ hội hướng dẫn và truy cập vào một mạng lưới rộng lớn của các chuyên gia trong ngành."
     }
-  ]
-,
+  ],
   "links": [
     {
       "caption": "síguenos en",
@@ -270,7 +267,7 @@
   ],
   "BlogAuthor": {
     "author": "ANDREW DIDOVSKIY",
-    "image":"https://bafybeibzmvnmyz2v3zd4cmfakv6omsebvy7sn2qo54pe52lg7tkfboo3wu.ipfs.w3s.link/WhatsApp_Image_2023-09-01_at_6.31.17_AM.jpeg.jpg",
+    "image": "https://bafybeibzmvnmyz2v3zd4cmfakv6omsebvy7sn2qo54pe52lg7tkfboo3wu.ipfs.w3s.link/WhatsApp_Image_2023-09-01_at_6.31.17_AM.jpeg.jpg",
     "description": "¡La mejor pila tecnológica para el desarrollo de Web 3.0!",
     "link": "#",
     "date": "22 de agosto, 2023"
@@ -282,13 +279,13 @@
   "TitleTeam": "ROSTROS DETRÁS DE",
   "TitleFAQ": "preguntas frecuentes",
   "TitleMain": "Libera el Poder De",
-"TitleMainTechnology": "TECNOLOGÍA",
-"TitleMainFrom": "De",
-"TitleMainTraditional": "Tradicional A",
-"TitleMainWeb": "Web",
-"TitleMain3": "3",
-"TitleServices": "SERVICIOS",
-"TitleContact": "CONTACTO",
-"TitleBlogPost": "de blog",
-"TitleChatgpt":"Chat GPT"
+  "TitleMainTechnology": "TECNOLOGÍA",
+  "TitleMainFrom": "De",
+  "TitleMainTraditional": "Tradicional A",
+  "TitleMainWeb": "Web",
+  "TitleMain3": "3",
+  "TitleServices": "SERVICIOS",
+  "TitleContact": "CONTACTO",
+  "TitleBlogPost": "de blog",
+  "TitleChatgpt": "Chat GPT"
 }

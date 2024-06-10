@@ -89,7 +89,7 @@ function BlogWCategories() {
           ))}
         </div>
       </div>
-      <div className="m-auto flex flex-wrap justify-center md:justify-start items-center w-full lg:w-[66%]">
+      <div className="m-auto flex flex-wrap justify-center md:justify-center items-center w-full lg:w-[66%]">
         {filteredArticles?.map((article, i) => (
           <Link key={i} href={"/blog"}>
             <ArticleCard index={i} article={article} />

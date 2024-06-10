@@ -30,7 +30,7 @@ function CompanyLogoSlider(params) {
           }}
         ></div>
 
-        <div className="flex[1] flex hide-scrollbar justify-center items-center z-10 relative">
+        <div className="flex[1] flex hide-scrollbar justify-center 3xl:justify-center items-center z-10 relative">
           {companyLogosList.map((e, i) => (
             <div key={i} className="px-5">
               {e}
