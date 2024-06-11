@@ -6,7 +6,7 @@ function GridBg({name}) {
   return (
     <>
     <div className="grid-container h-[50vh] w-full flex items-center justify-center sm:justify-normal p-10 mb-5">
-      <h3 className="max-w-full uppercase styled-border h-[12vh]  m-auto lg:m-0 md:m-0 sm:m-0 flex items-center">
+      <h3 className="max-w-full uppercase styled-border h-[15vh] m-auto lg:m-0 md:m-0 sm:m-0 flex items-center">
         {name}
       </h3>
 

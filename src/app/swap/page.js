@@ -27,7 +27,7 @@ function Contact(params) {
 
 
   return (
-    <div>
+    <div >
       <Header />
       <GridBg name={t?.TitleSwap} />
       <div className="p-5">
