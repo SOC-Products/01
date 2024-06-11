@@ -68,15 +68,15 @@ function BlogWCategories() {
     <div className="m-auto p-5 w-full">
       <div className="w-full flex flex-col md:flex-row m-auto">
         <div className="pl-2 w-[100vw] lg:w-[17vw] sm:w-[100vw] md:w-[17vw]">
-          <p className="p-3 border-2  border-[#353539] border-opacity-[0.6] w-fit sm:w-fit md:w-fit lg:w-full min-w-fit">
+          <p className="p-3 border-2  border-[#061e5e] border-opacity-[0.6] w-fit sm:w-fit md:w-fit lg:w-full min-w-fit">
             Categories
           </p>
         </div>
-        <div className="flex flex-wrap border-2  border-[#353539] border-opacity-[0.6] min-w-[290px] w-fit md:w-[66vw]">
+        <div className="flex flex-wrap border-2  border-[#061e5e] border-opacity-[0.6] min-w-[290px] w-fit md:w-[66vw]">
           {categories.map((category, i) => (
             <div key={i} className="px-2">
               <p
-                className={`p-2 border-2 m-1  border-[#353539] text-[#999] border-opacity-[0.6] ${
+                className={`p-2 border-2 m-1  border-[#061e5e] text-[#999] border-opacity-[0.6] ${
                   selectedCategory === category.name
                     ? "text-[#fff] border-white"
                     : ""
