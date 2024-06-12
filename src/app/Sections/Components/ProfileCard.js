@@ -3,24 +3,24 @@ import Image from "next/image";
 import Plus_Image from "@/../public/plus.svg";
 const team = [
   {
-    name: "Thien Nguyen",
+    name: "XYZ",
     designation: "founder & ceo",
-    image: require("@/../public/ProfileImages/p1.png"),
+    image: require("@/../public/ProfileImages/pro1.png"),
   },
   {
-    name: "Manh Tran",
+    name: "XYZ",
     designation: "Web3 Engineer",
-    image: require("@/../public/ProfileImages/p3.png"),
+    image: require("@/../public/ProfileImages/pro2.png"),
   },
   {
-    name: "Dip Karmakar",
+    name: "XYZ",
     designation: "Senior research Defi and Web3",
-    image: require("@/../public/ProfileImages/p4.png"),
+    image: require("@/../public/ProfileImages/pro3.png"),
   },
   {
-    name: "Syed Musavir Chishti",
+    name: "XYZ",
     designation: "Senior Tech Consultant",
-    image: require("@/../public/ProfileImages/p2.png"),
+    image: require("@/../public/ProfileImages/pro4.png"),
   },
 ]
 function ProfileCard({index, profile }) {

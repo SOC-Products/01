@@ -1,5 +1,5 @@
 {
-  "title": "Hassan",
+  "title": "Excellez",
   "getstart": "Get started",
   "navHome": "Home",
   "navServices": "Services",
@@ -19,15 +19,15 @@
   "contactInfo": [
     {
       "label": "Address",
-      "value": "8 The Green, STE A, Dover, Delaware, 19901, USA"
+      "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "label": "Phone",
-      "value": "+1 (345) 678 9012"
+      "value": "+0 (000) 000 0000"
     },
     {
       "label": "Email",
-      "value": "info@techyoung.com"
+      "value": "Lorem ipsum dolor sit amet"
     }
   ],
   "contactFormFields": [
@@ -99,8 +99,8 @@
         "link": "https://voxsynth.io",
         "image":"https://www.izotope.com/storage-cms/images/0/5/5/9/219550-1-eng-GB/29d086f58967-vocalsynth-2-interactive-visualizations-why.jpg",
         "tags": [
-            "Voice Cloning",
-            "Audio Processing"
+            "lorem ipsum",
+            "consectetur."
         ]
     },
     {
@@ -109,8 +109,8 @@
         "link": "https://textsumm.ai",
         "image":"https://repository-images.githubusercontent.com/216241997/f4108980-9e9d-11ea-8e7c-816b255395a9",
         "tags": [
-            "NLP",
-            "Text Summarization"
+            "lorem ipsum",
+            "consectetur."
         ]
     },
     {
@@ -119,8 +119,8 @@
         "link": "https://visrecog.tech",
         "image":"https://assets.website-files.com/6390c443fe95660a5e9a4a2b/6390cf8ec81424b8d5722600_Vix_Logo-18.png",
         "tags": [
-            "Object Detection",
-            "Computer Vision"
+            "lorem ipsum",
+            "consectetur."
         ]
     }
 ],
@@ -138,22 +138,22 @@
   "ArticalTitle": "Latest Articles",
   "Articles": [
     {
-      "author": "ANDREW DIDOVSKIY",
-      "description": "Best tech stack for Web 3.0 development!",
+      "author": "XYZ",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
       "link": "https://web3techstack.io",
       "image": "https://www.izotope.com/storage-cms/images/0/5/5/9/219550-1-eng-GB/29d086f58967-vocalsynth-2-interactive-visualizations-why.jpg",
       "date": "August 22, 2023"
     },
     {
-      "author": "MARIANA VELASCO",
-      "description": "Exploring the potential of quantum computing in modern enterprises.",
+      "author": "XYZ",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
       "link": "https://quantumfuture.tech",
       "image": "https://techeconomy.ng/wp-content/uploads/2023/05/Quantum-Computing-Exploring-the-Potential-of-Next-Generation-Computing-.jpg",
       "date": "August 25, 2023"
     },
     {
-      "author": "KAI WEN",
-      "description": "The transformative power of AI in the healthcare sector.",
+      "author": "XYZ",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
       "image": "https://ehealth.eletsonline.com/wp-content/uploads/2019/06/Artificial-Intelligence-1024x682.jpeg",
       "link": "https://aihealthrevolution.net",
       "date": "August 28, 2023"
@@ -162,50 +162,50 @@
   ,
   "Team": [
     {
-      "name": "Thien Nguyen",
+      "name": "XYZ",
       "designation": "founder & ceo",
-      "image": "../../../public/ProfileImages/p1.png"
+      "image": "../../../public/ProfileImages/pro1.png"
     },
     {
-      "name": "Manh Tran",
+      "name": "XYZ",
       "designation": "Web3 Engineer",
-      "image": "../../../public/ProfileImages/p3.png"
+      "image": "../../../public/ProfileImages/pro2.png"
     },
     {
-      "name": "Dip Karmakar",
+      "name": "XYZ",
       "designation": "Senior research Defi and Web3",
-      "image": "../../../public/ProfileImages/p4.png"
+      "image": "../../../public/ProfileImages/pro3.png"
     },
     {
-      "name": "Syed Musavir Chishti",
+      "name": "XYZ",
       "designation": "Senior Tech Consultant",
-      "image": "../../../public/ProfileImages/p2.png"
+      "image": "../../../public/ProfileImages/pro4.png"
     }
   ],
   "questions": [
     {
-      "q": "what does tech young actually do?",
-      "a": "Tech Young is a company dedicated to fostering technological innovation and nurturing young talents in the tech world, providing them with platforms and resources to excel."
+      "q": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.?",
+      "a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo orci. Integer varius nibh eu mattis porta."
     },
     {
-      "q": "how does it work?",
-      "a": "Tech Young collaborates with schools, institutions, and independent innovators, offering workshops, webinars, and state-of-the-art tools to help bring ideas to life."
+      "q": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+      "a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo orci. Integer varius nibh eu mattis porta"
     },
     {
-      "q": "what services do you provide?",
-      "a": "We offer tech education programs, innovation incubation, mentorship opportunities, and access to a wide network of industry professionals."
+      "q": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+      "a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo orci. Integer varius nibh eu mattis porta"
     },
     {
-      "q": "how does it work?",
-      "a": "Users can sign up on our platform, choose the services or programs they are interested in, and gain access to a myriad of resources and experts in the field."
+      "q": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.?",
+      "a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo orci. Integer varius nibh eu mattis porta"
     },
     {
-      "q": "Que fait réellement tech young ?",
-      "a": "Tech Young est une entreprise dédiée à la promotion de l'innovation technologique et au soutien des jeunes talents dans le monde de la technologie, leur fournissant des plateformes et des ressources pour exceller."
+      "q": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.?",
+      "a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo orci. Integer varius nibh eu mattis porta"
     },
     {
-      "q": "Quels services fournissez-vous ?",
-      "a": "Nous proposons des programmes d'éducation technologique, d'incubation d'innovation, des opportunités de mentorat et un accès à un vaste réseau de professionnels du secteur."
+      "q": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+      "a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo orci. Integer varius nibh eu mattis porta"
     }
   ],
   "links": [
@@ -233,7 +233,7 @@
   "FooterTitle": "SUBSCRIBE TO OUR NEWSLETTER",
   "Footerinput": "Enter Your Email Address",
   "FooterButton": "Get started",
-  "FooterDecription": "copyright © 2023 techyoung.com | all rights reserved.",
+  "FooterDecription": "Lorem ipsum dolor sit amet | consectetur adipiscing elit.",
   "BlogsCategories": [
     {
       "name": "all"
@@ -264,7 +264,7 @@
     }
   ],
   "BlogAuthor": {
-    "author": "ANDREW DIDOVSKIY",
+    "author": "XYZ",
     "description": "Best tech stack for Web 3.0 development!",
     "image":"https://bafybeibzmvnmyz2v3zd4cmfakv6omsebvy7sn2qo54pe52lg7tkfboo3wu.ipfs.w3s.link/WhatsApp_Image_2023-09-01_at_6.31.17_AM.jpeg.jpg",
     "link": "#",
@@ -274,7 +274,7 @@
   "TitleRecent": "Recent work",
   "TitleProcess": "Seamless Process",
   "TitleSwap": "SWAP TOKENS",
-  "TitleTeam": "FACES BEHIND TECHYOUNG",
+  "TitleTeam": "FACES BEHIND EXCELLEZ",
   "TitleFAQ": "frequently asked questions",
   "TitleMain":"Unlock The Porwer Of",
   "TitleMainTechnology":"TECHNOLOGY",

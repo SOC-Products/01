@@ -19,15 +19,15 @@
   "contactInfo": [
     {
       "label": "Địa chỉ",
-      "value": "8 The Green, STE A, Dover, Delaware, 19901, Hoa Kỳ"
+      "value": "Lorem ipsum dolor sit amet, consectetur."
     },
     {
       "label": "Điện thoại",
-      "value": "+1 (345) 678 9012"
+      "value": "+0 (000) 000 0000"
     },
     {
       "label": "E-mail",
-      "value": "info@techyoung.com"
+      "value": "Lorem ipsum dolor sit amet, consectetur."
     }
   ],
   "contactFormFields": [
@@ -138,7 +138,7 @@
   "ArticalTitle": "Bài viết mới nhất",
   "Articles": [
     {
-      "author": "ANDREW DIDOVSKIY",
+      "author": "XYZ",
       "description": "Công nghệ tốt nhất cho phát triển Web 3.0!",
       "image": "https://tecusher.com/wp-content/uploads/2023/01/63be94090c5629de82f64665_web3-image-scaled-1.jpg",
       "link": "https://web3techstack.io",
@@ -183,16 +183,20 @@
   ],
   "questions": [
     {
-      "q": "Tech Young thực sự làm gì?",
-      "a": "Tech Young là một công ty chuyên khuyến khích sự đổi mới công nghệ và nuôi dưỡng những tài năng trẻ trong lĩnh vực công nghệ, cung cấp cho họ các nền tảng và tài nguyên để họ phát triển."
+      "q": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo orci. Integer varius nibh eu mattis porta"
     },
     {
-      "q": "Công ty hoạt động như thế nào?",
-      "a": "Tech Young hợp tác với các trường học, tổ chức và những người sáng tạo độc lập, tổ chức các buổi hội thảo, hội nghị trực tuyến và cung cấp những công cụ tiên tiến để giúp thực hiện các ý tưởng."
+      "q": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo orci. Integer varius nibh eu mattis porta"
     },
     {
-      "q": "Các bạn cung cấp những dịch vụ gì?",
-      "a": "Chúng tôi cung cấp các chương trình giáo dục về công nghệ, ấp ủ các ý tưởng đổi mới, cơ hội mentorship và truy cập vào một mạng lưới rộng lớn của các chuyên gia trong ngành."
+      "q": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo orci. Integer varius nibh eu mattis porta"
+    },
+    {
+      "q": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo orci. Integer varius nibh eu mattis porta"
     }
   ]
 ,
@@ -221,7 +225,7 @@
   "FooterTitle": "THEO DÕI BẢN TIN CỦA CHÚNG TÔI",
   "Footerinput": "Nhập địa chỉ email của bạn",
   "FooterButton": "Bắt đầu",
-  "FooterDecription": "bản quyền © 2023 techyoung.com | Đã đăng ký Bản quyền.",
+  "FooterDecription": "Lorem ipsum dolor sit amet | consectetur adipiscing elit.",
   "BlogsCategories": [
     {
       "name": "tất cả"
@@ -252,7 +256,7 @@
     }
   ],
   "BlogAuthor": {
-    "author": "ANDREW DIDOVSKIY",
+    "author": "XYZ",
     "description": "Ngăn xếp công nghệ tốt nhất để phát triển Web 3.0!",
     "image":"https://bafybeibzmvnmyz2v3zd4cmfakv6omsebvy7sn2qo54pe52lg7tkfboo3wu.ipfs.w3s.link/WhatsApp_Image_2023-09-01_at_6.31.17_AM.jpeg.jpg",
     "link": "#",

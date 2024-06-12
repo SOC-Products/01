@@ -64,12 +64,15 @@ const Header = ({ content, locales }) => {
       }
       
     >
-      <div className="text-xl font-bold text-left p-10">
+      {/* <div className="text-xl font-bold text-left p-10">
         <Image
           src={Logo}
           alt="logo"
           className="h-[32px] min-w-[150px] w-auto object-contain text-left"
         />
+      </div> */}
+      <div className="text-xl font-bold text-left p-10">
+        <h3>Excellez Design Express</h3>
       </div>
 
       {isSmallerThanSm ? (

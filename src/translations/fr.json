@@ -19,15 +19,15 @@
   "contactInfo": [
     {
       "label": "Adresse",
-      "value": "8 The Green, STE A, Dover, Delaware, 19901, USA"
+      "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "label": "Téléphone",
-      "value": "+1 (345) 678 9012"
+      "value": "+0 (000) 000 0000"
     },
     {
       "label": "Email",
-      "value": "info@techyoung.com"
+      "value": "Lorem ipsum dolor sit amet, consectetur."
     }
   ],
   "contactFormFields": [
@@ -140,7 +140,7 @@
   "ArticalTitle": "Derniers articles",
   "Articles": [
     {
-      "author": "ANDREW DIDOVSKIY",
+      "author": "XYZ",
       "description": "Meilleure technologie pour le développement de Web 3.0!",
       "image": "https://tecusher.com/wp-content/uploads/2023/01/63be94090c5629de82f64665_web3-image-scaled-1.jpg",
       "link": "https://web3techstack.io",
@@ -186,21 +186,22 @@
   ],
   "questions": [
     {
-      "q": "¿Qué hace realmente Tech Young?",
-      "a": "Tech Young es una empresa dedicada a fomentar la innovación tecnológica y a nutrir a jóvenes talentos en el mundo tecnológico, proporcionándoles plataformas y recursos para sobresalir."
+      "q": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo orci. Integer varius nibh eu mattis porta"
     },
     {
-      "q": "¿Qué servicios proporcionan?",
-      "a": "Ofrecemos programas de educación tecnológica, incubación de innovación, oportunidades de mentoría y acceso a una amplia red de profesionales de la industria."
+      "q": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo orci. Integer varius nibh eu mattis porta"
     },
     {
-      "q": "Tech Young thực sự làm gì?",
-      "a": "Tech Young là một công ty chuyên tạo điều kiện cho sự đổi mới công nghệ và nuôi dưỡng những tài năng trẻ trong thế giới công nghệ, cung cấp cho họ các nền tảng và nguồn lực để phát triển."
+      "q": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo orci. Integer varius nibh eu mattis porta"
     },
     {
-      "q": "Các bạn cung cấp dịch vụ gì?",
-      "a": "Chúng tôi cung cấp các chương trình giáo dục công nghệ, ủy nhiệm đổi mới, cơ hội mentorship và truy cập vào một mạng lưới rộng lớn của các chuyên gia trong ngành."
+      "q": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "a": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo orci. Integer varius nibh eu mattis porta"
     }
+    
   ]
 ,
   "links": [
@@ -228,7 +229,7 @@
   "FooterTitle": "ABONNEZ-VOUS À NOTRE NEWSLETTER",
   "Footerinput": "Entrez votre adresse e-mail",
   "FooterButton": "Commencer",
-  "FooterDecription": "copyright © 2023 techyoung.com | tous droits réservés.",
+  "FooterDecription": "Lorem ipsum dolor sit amet | consectetur adipiscing elit..",
   "BlogsCategories": [
     {
       "name": "tout"
@@ -259,7 +260,7 @@
     }
   ],
   "BlogAuthor": {
-    "author": "ANDREW DIDOVSKIY",
+    "author": "XYZ",
     "description": "Meilleure technologie pour le développement Web 3.0!",
     "image":"https://bafybeibzmvnmyz2v3zd4cmfakv6omsebvy7sn2qo54pe52lg7tkfboo3wu.ipfs.w3s.link/WhatsApp_Image_2023-09-01_at_6.31.17_AM.jpeg.jpg",
     "link": "#",

@@ -25,7 +25,7 @@ function LatestArticles(params) {
 
   const articles = t?.Articles;
   // {
-  //   author: "ANDREW DIDOVSKIY",
+  //   author: "XYZ",
   //   description: "Best tech stack for Web 3.0 development!",
   //   link: "#",
   //   date: "August 22, 2023",

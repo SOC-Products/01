@@ -386,10 +386,10 @@ useEffect(()=>{
       }}
     >
       <h3 className="text-center">{t?.SwapDecription}</h3>
-      <div className="w-full flex flex-wrap justify-center items-center flex-col md:flex-row">
+      <div className="w-full flex flex-wrap justify-center items-center flex-col md:flex-col lg:flex-row xl:flex-row 2xl:flex-row md:items-center  ">
         
         <div>
-          <div onClick={() => setModalOpen(true)}  className="flex justify-between items-center min-w-[290px] rightToken">
+          <div onClick={() => setModalOpen(true)}  className="flex justify-between items-center md:items-center min-w-[290px] rightToken">
             <div className="w-fit flex justify-center items-center">
               <div className="p-2">
                 <img width={50} src={rightToken?.img} alt='...' />

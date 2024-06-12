@@ -24,7 +24,10 @@ function LinksSection({ lastStage }) {
   return (
     <div className={`flex flex-col pt-11 w-[66%] m-auto  min-w-[300px] relative z-10 glass-blur`}>
       <div className="text-center w-full h-[72px]">
-        <Image src={Logo} alt="logo" className="h-[72px] object-contain max-w-[75%] w-auto" />
+        {/* <Image src={Logo} alt="logo" className="h-[72px] object-contain max-w-[75%] w-auto" /> */}
+        <div className="text-xl font-bold text-center pb-10">
+        <h2>Excellez Design Express</h2>
+      </div>
       </div>
       <div className="w-full">
         <div
