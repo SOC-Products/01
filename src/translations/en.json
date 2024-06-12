@@ -8,14 +8,14 @@
   "navBlogs": "Blogs",
   "heroQuet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   "services": [
-    "Development",
-    "Branding",
-    "NFT",
-    "Market analysis",
-    "AI trading"
+    "lorem",
+    "ipsum",
+    "dolor",
+    "sit",
+    "amet"
   ],
-  "andMuchMore": "and Much More",
-  "companyLogoDec": "We’re trusted by 106+ brands & startups",
+  "andMuchMore": "consecteture",
+  "companyLogoDec": "Lorem ipsum dolor sit amet, consectetur.",
   "contactInfo": [
     {
       "label": "Address",
@@ -52,49 +52,49 @@
   "sendMessageButton": "Send Message",
   "solutions": [
     {
-      "name": "App Development",
+      "name": "Lorem ipsum ",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
       "links": [
         {
-          "name": "Ninja Warriors Meta",
+          "name": "Lorem ipsum dolor ",
           "link": "https://www.ninjawarriorsmeta.com/"
         },
         {
-          "name": "Ninja Squad",
+          "name": "Lorem ipsum dolor ",
           "link": "https://ninjasquad.co/"
         }
       ]
     },
     {
-      "name": "Web Development",
+      "name": "Lorem ipsum ",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
       "links": [
         {
-          "name": "Midas Safety",
+          "name": "Lorem ipsum ",
           "link": "https://www.midassafety.com/products/gloves/dipped-seamless/nft-regular/"
         },
         {
-          "name": "Ninja Squad",
+          "name": "Lorem ipsum ",
           "link": "https://ninjasquad.co/"
         }
       ]
     },
     {
-      "name": "Blockchain Development",
+      "name": "Lorem ipsum ",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
       "links": [
         {
-          "name": "Nft Cars",
+          "name": "lorem ipsum",
           "link": "https://nftcars.me/"
         }
      
       ]
     }
   ],
-  "ViewLiveProject": "View live project",
+  "ViewLiveProject": "Lorem ipsum dolor",
   "recentWork": [
     {
-        "name": "VoxSynth - Voice Cloning Tool",
+        "name": "Lorem ipsum dolor sit amet, consectetur.",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "link": "https://voxsynth.io",
         "image":"https://www.izotope.com/storage-cms/images/0/5/5/9/219550-1-eng-GB/29d086f58967-vocalsynth-2-interactive-visualizations-why.jpg",
@@ -104,7 +104,17 @@
         ]
     },
     {
-        "name": "TextSumm - Advanced Summarization Tool",
+        "name": "Lorem ipsum dolor sit amet, consectetur.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "link": "https://voxsynth.io",
+        "image":"https://www.izotope.com/storage-cms/images/0/5/5/9/219550-1-eng-GB/29d086f58967-vocalsynth-2-interactive-visualizations-why.jpg",
+        "tags": [
+            "lorem ipsum",
+            "consectetur."
+        ]
+    },
+    {
+        "name": "Lorem ipsum dolor sit amet, consectetur.",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "link": "https://textsumm.ai",
         "image":"https://repository-images.githubusercontent.com/216241997/f4108980-9e9d-11ea-8e7c-816b255395a9",
@@ -114,7 +124,7 @@
         ]
     },
     {
-        "name": "VisRecog - Real-time Object Detector",
+        "name": "Lorem ipsum dolor sit amet, consectetur.",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "link": "https://visrecog.tech",
         "image":"https://assets.website-files.com/6390c443fe95660a5e9a4a2b/6390cf8ec81424b8d5722600_Vix_Logo-18.png",
@@ -129,14 +139,21 @@
   "ProcessStep2": "Step 2",
   "ProcessStep3": "Step 3",
   "ProcessStep4": "Step 4",
-  "ProcessResearch": "Research",
-  "ProcessIdeate": "Ideate",
-  "ProcessPrototype": "Prototype",
-  "ProcessTest": "Test",
-  "SwapDecription": "SWAP TOKENS IN AN INSTANT",
+  "ProcessResearch": "Lorem ipsum ",
+  "ProcessIdeate": "Lorem ipsum",
+  "ProcessPrototype": "Lorem ipsum ",
+  "ProcessTest": "Lorem ",
+  "SwapDecription": "Lorem ipsum dolor sit amet, consectetur.",
   "SwapConnectWallet": "Connect wallet",
   "ArticalTitle": "Latest Articles",
   "Articles": [
+    {
+      "author": "XYZ",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
+      "link": "https://web3techstack.io",
+      "image": "https://www.izotope.com/storage-cms/images/0/5/5/9/219550-1-eng-GB/29d086f58967-vocalsynth-2-interactive-visualizations-why.jpg",
+      "date": "August 22, 2023"
+    },
     {
       "author": "XYZ",
       "description": "Lorem ipsum dolor sit amet, consectetur.",
@@ -163,23 +180,23 @@
   "Team": [
     {
       "name": "XYZ",
-      "designation": "founder & ceo",
-      "image": "../../../public/ProfileImages/pro1.png"
+      "designation": "lorem ipsum",
+      "image": "../../../public/ProfileImages/3d-illustration-teenager-with-funny-face-glasses.jpg"
     },
     {
       "name": "XYZ",
-      "designation": "Web3 Engineer",
-      "image": "../../../public/ProfileImages/pro2.png"
+      "designation": "lorem ipsum",
+      "image": "../../../public/ProfileImages/3d-illustration-teenager-with-funny-face-glasses.jpg"
     },
     {
       "name": "XYZ",
-      "designation": "Senior research Defi and Web3",
-      "image": "../../../public/ProfileImages/pro3.png"
+      "designation": "lorem ipsum",
+      "image": "../../../public/ProfileImages/3d-illustration-teenager-with-funny-face-glasses.jpg"
     },
     {
       "name": "XYZ",
-      "designation": "Senior Tech Consultant",
-      "image": "../../../public/ProfileImages/pro4.png"
+      "designation": "lorem ipsum",
+      "image": "../../../public/ProfileImages/3d-illustration-teenager-with-funny-face-glasses.jpg"
     }
   ],
   "questions": [
@@ -230,7 +247,7 @@
       "link": "#"
     }
   ],
-  "FooterTitle": "SUBSCRIBE TO OUR NEWSLETTER",
+  "FooterTitle": "Lorem ipsum dolor sit amet.",
   "Footerinput": "Enter Your Email Address",
   "FooterButton": "Get started",
   "FooterDecription": "Lorem ipsum dolor sit amet | consectetur adipiscing elit.",
@@ -265,7 +282,7 @@
   ],
   "BlogAuthor": {
     "author": "XYZ",
-    "description": "Best tech stack for Web 3.0 development!",
+    "description": "Lorem ipsum dolor sit amet, consectator",
     "image":"https://bafybeibzmvnmyz2v3zd4cmfakv6omsebvy7sn2qo54pe52lg7tkfboo3wu.ipfs.w3s.link/WhatsApp_Image_2023-09-01_at_6.31.17_AM.jpeg.jpg",
     "link": "#",
     "date": "August 22, 2023"

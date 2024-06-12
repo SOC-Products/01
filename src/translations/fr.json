@@ -52,7 +52,7 @@
   "sendMessageButton": "Envoyer le message",
   "solutions": [
     {
-      "name": "Développement d'applications",
+      "name": "lorem ipsum dolor",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
       "links": [
         {
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "name": "Développement web",
+      "name": "lorem ipsum dolor",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
       "links": [
         {
@@ -80,11 +80,11 @@
       ]
     },
     {
-      "name": "Développement de la blockchain",
+      "name": "lorem ipsum dolor",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
       "links": [
         {
-          "name": "Nft Cars",
+          "name": "lorem ipsum",
           "link": "https://nftcars.me/"
         }
      
@@ -95,33 +95,43 @@
   "recentWork": [
     
     {
-        "name": "VoxSynth - Outil de Clonage Vocal",
+        "name": "Lorem ipsum dolor amit",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "image":"https://www.izotope.com/storage-cms/images/0/5/5/9/219550-1-eng-GB/29d086f58967-vocalsynth-2-interactive-visualizations-why.jpg",
         "link": "https://voxsynth.io",
         "tags": [
-            "Clonage Vocal",
-            "Traitement Audio"
+            "Lorem ipsum ",
+        "dolor amit"
         ]
     },
     {
-        "name": "TextSumm - Outil de Résumé Avancé",
+        "name": "Lorem ipsum dolor amit",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image":"https://www.izotope.com/storage-cms/images/0/5/5/9/219550-1-eng-GB/29d086f58967-vocalsynth-2-interactive-visualizations-why.jpg",
+        "link": "https://voxsynth.io",
+        "tags": [
+            "Lorem ipsum ",
+        "dolor amit"
+        ]
+    },
+    {
+        "name": "Lorem ipsum dolor amit",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "image":"https://repository-images.githubusercontent.com/216241997/f4108980-9e9d-11ea-8e7c-816b255395a9",
         "link": "https://textsumm.ai",
         "tags": [
-            "TALN",
-            "Résumé de Texte"
+            "Lorem ipsum ",
+        "dolor amit"
         ]
     },
     {
-        "name": "VisRecog - Détecteur d'Objets en Temps Réel",
+        "name": "Lorem ipsum dolor amit",
         "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "image":"https://assets.website-files.com/6390c443fe95660a5e9a4a2b/6390cf8ec81424b8d5722600_Vix_Logo-18.png",
         "link": "https://visrecog.tech",
         "tags": [
-            "Détection d'Objets",
-            "Vision par Ordinateur"
+           "Lorem ipsum ",
+        "dolor amit"
         ]
     }
 ]
@@ -131,31 +141,38 @@
   "ProcessStep2": "Étape 2",
   "ProcessStep3": "Étape 3",
   "ProcessStep4": "Étape 4",
-  "ProcessResearch": "Recherche",
-  "ProcessIdeate": "Idéation",
-  "ProcessPrototype": "Prototype",
-  "ProcessTest": "Test",
-  "SwapDecription": "ÉCHANGEZ DES JETONS INSTANTANÉMENT",
+  "ProcessResearch": "Lorem",
+  "ProcessIdeate": "Ipsum",
+  "ProcessPrototype": "Dolor",
+  "ProcessTest": "Amit",
+  "SwapDecription": "lorem ipsum dolor amit",
   "SwapConnectWallet": "Connecter le portefeuille",
   "ArticalTitle": "Derniers articles",
   "Articles": [
     {
       "author": "XYZ",
-      "description": "Meilleure technologie pour le développement de Web 3.0!",
-      "image": "https://tecusher.com/wp-content/uploads/2023/01/63be94090c5629de82f64665_web3-image-scaled-1.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
+      "image": "https://www.izotope.com/storage-cms/images/0/5/5/9/219550-1-eng-GB/29d086f58967-vocalsynth-2-interactive-visualizations-why.jpg",
       "link": "https://web3techstack.io",
       "date": "22 août 2023"
     },
     {
-      "author": "MARIANA VELASCO",
-      "description": "Explorer le potentiel de l'informatique quantique dans les entreprises modernes.",
+      "author": "XYZ",
+      "description": "Lorem ipsum dolor sit amet, consectetur.",
+      "image": "https://www.izotope.com/storage-cms/images/0/5/5/9/219550-1-eng-GB/29d086f58967-vocalsynth-2-interactive-visualizations-why.jpg",
+      "link": "https://web3techstack.io",
+      "date": "22 août 2023"
+    },
+    {
+      "author": "XYZ",
+      "description": "Lorem ipsum dolor sit amet, consectetur",
       "image": "https://techeconomy.ng/wp-content/uploads/2023/05/Quantum-Computing-Exploring-the-Potential-of-Next-Generation-Computing-.jpg",
       "link": "https://quantumfuture.tech",
       "date": "25 août 2023"
     },
     {
-      "author": "KAI WEN",
-      "description": "Le pouvoir transformateur de l'IA dans le secteur de la santé.",
+      "author": "XYZ",
+      "description": "Lorem ipsum dolor sit amet, consectetur",
       "image": "https://ehealth.eletsonline.com/wp-content/uploads/2019/06/Artificial-Intelligence-1024x682.jpeg",
       "link": "https://aihealthrevolution.net",
       "date": "28 août 2023"
@@ -164,24 +181,24 @@
   ,
   "Team": [
     {
-      "name": "Thien Nguyen",
-      "designation": "fondateur & PDG",
-      "image": "../../../public/ProfileImages/p1.png"
+      "name": "XYZ",
+      "designation": "Lorem ipsum dolor ",
+      "image": "../../../public/ProfileImages/3d-illustration-teenager-with-funny-face-glasses.jpg"
     },
     {
-      "name": "Manh Tran",
-      "designation": "Ingénieur Web3",
-      "image": "../../../public/ProfileImages/p3.png"
+      "name": "XYZ",
+      "designation": "Lorem ipsum dolor ",
+      "image": "../../../public/ProfileImages/3d-illustration-teenager-with-funny-face-glasses.jpg"
     },
     {
-      "name": "Dip Karmakar",
-      "designation": "Chercheur senior en Defi et Web3",
-      "image": "../../../public/ProfileImages/p4.png"
+      "name": "XYZ",
+      "designation": "Lorem ipsum dolor ",
+      "image": "../../../public/ProfileImages/3d-illustration-teenager-with-funny-face-glasses.jpg"
     },
     {
-      "name": "Syed Musavir Chishti",
-      "designation": "Consultant tech senior",
-      "image": "../../../public/ProfileImages/p2.png"
+      "name": "XYZ",
+      "designation": "Lorem ipsum dolor ",
+      "image": "../../../public/ProfileImages/3d-illustration-teenager-with-funny-face-glasses.jpg"
     }
   ],
   "questions": [
@@ -261,7 +278,7 @@
   ],
   "BlogAuthor": {
     "author": "XYZ",
-    "description": "Meilleure technologie pour le développement Web 3.0!",
+    "description": "Lorem ipsum dolor sit amet, consectator.",
     "image":"https://bafybeibzmvnmyz2v3zd4cmfakv6omsebvy7sn2qo54pe52lg7tkfboo3wu.ipfs.w3s.link/WhatsApp_Image_2023-09-01_at_6.31.17_AM.jpeg.jpg",
     "link": "#",
     "date": "22 août 2023"

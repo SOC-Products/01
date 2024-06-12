@@ -8,14 +8,14 @@
   "navBlogs": "Blog",
   "heroQuet": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
   "services": [
-    "Phát triển",
-    "Xây dựng thương hiệu",
-    "NFT",
-    "Phân tích thị trường",
-    "giao dịch AI"
+    "Lorem",
+    "Ipsum",
+    "Dolor",
+    "amit",
+    "consectetur"
   ],
-  "andMuchMore": "và nhiều hơn nữa",
-  "companyLogoDec": "Chúng tôi được hơn 106 thương hiệu và công ty khởi nghiệp tin tưởng",
+  "andMuchMore": "lorem ipsum dolor",
+  "companyLogoDec": "lorem ipsum dolor sit amet, consectetur",
   "contactInfo": [
     {
       "label": "Địa chỉ",
@@ -52,75 +52,85 @@
   "sendMessageButton": "Gửi tin nhắn",
   "solutions": [
     {
-      "name": "Phát triển ứng dụng",
+      "name": "lorem ipsum dolor" ,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
       "links": [
         {
-          "name": "Ninja Warriors Meta",
+          "name": "lorem ipsum dolor",
           "link": "https://www.ninjawarriorsmeta.com/"
         },
         {
-          "name": "Ninja Squad",
+          "name": "lorem ipsum dolor",
           "link": "https://ninjasquad.co/"
         }
       ]
     },
     {
-      "name": "Phát triển web",
+      "name": "lorem ipsum dolor",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
       "links": [
         {
-          "name": "Midas Safety",
+          "name": "lorem ipsum",
           "link": "https://www.midassafety.com/products/gloves/dipped-seamless/nft-regular/"
         },
         {
-          "name": "Ninja Squad",
+          "name": "lorem ipsum",
           "link": "https://ninjasquad.co/"
         }
       ]
     },
     {
-      "name": "Phát triển chuỗi khối",
+      "name": "lorem ipsum dolor",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
       "links": [
         {
-          "name": "Nft Cars",
+          "name": "lorem ipsum",
           "link": "https://nftcars.me/"
         }
      
       ]
     }
   ],
-  "ViewLiveProject": "Xem dự án trực tiếp",
+  "ViewLiveProject": "lorem ipsum dolor",
   "recentWork": [
     {
-        "name": "VoxSynth - Công Cụ Sao Chép Giọng Nói",
+        "name": "lorem ipsum dolor amet",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "image":"https://www.izotope.com/storage-cms/images/0/5/5/9/219550-1-eng-GB/29d086f58967-vocalsynth-2-interactive-visualizations-why.jpg",
         "link": "https://voxsynth.io",
         "tags": [
-            "Sao Chép Giọng Nói",
-            "Xử Lý Âm Thanh"
+            "Lorem ipsum ",
+        "dolor amit"
         ]
     },
     {
-        "name": "TextSumm - Công Cụ Tóm Tắt Nâng Cao",
+        "name": "lorem ipsum dolor amet",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "image":"https://www.izotope.com/storage-cms/images/0/5/5/9/219550-1-eng-GB/29d086f58967-vocalsynth-2-interactive-visualizations-why.jpg",
+        "link": "https://voxsynth.io",
+        "tags": [
+            "Lorem ipsum ",
+        "dolor amit"
+        ]
+    },
+    {
+        "name": "lorem ipsum dolor amet",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "image":"https://repository-images.githubusercontent.com/216241997/f4108980-9e9d-11ea-8e7c-816b255395a9",
         "link": "https://textsumm.ai",
         "tags": [
-            "NLP",
-            "Tóm Tắt Văn Bản"
+            "Lorem ipsum ",
+        "dolor amit"
         ]
     },
     {
-        "name": "VisRecog - Máy Dò Vật Thể Thời Gian Thực",
+        "name": "lorem ipsum dolor amet",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "image":"https://assets.website-files.com/6390c443fe95660a5e9a4a2b/6390cf8ec81424b8d5722600_Vix_Logo-18.png",
         "link": "https://visrecog.tech",
         "tags": [
-            "Phát Hiện Đối Tượng",
-            "Thị Giác Máy Tính"
+            "Lorem ipsum ",
+        "dolor amit"
         ]
     }
 ],
@@ -129,30 +139,37 @@
   "ProcessStep2": "Bước 2",
   "ProcessStep3": "Bước 3",
   "ProcessStep4": "Bước 4",
-  "ProcessResearch": "Nghiên cứu",
-  "ProcessIdeate": "lý tưởng",
-  "ProcessPrototype": "Nguyên mẫu",
-  "ProcessTest": "Bài kiểm tra",
-  "SwapDecription": "TRAO ĐỔI TOKEN NGAY LẬP TỨC",
+  "ProcessResearch": "Lorem",
+  "ProcessIdeate": "ipsum",
+  "ProcessPrototype": "dolor",
+  "ProcessTest": "amet",
+  "SwapDecription": "lorem ipsum dolor amet",
   "SwapConnectWallet": "Kết nối ví",
   "ArticalTitle": "Bài viết mới nhất",
   "Articles": [
     {
       "author": "XYZ",
       "description": "Công nghệ tốt nhất cho phát triển Web 3.0!",
-      "image": "https://tecusher.com/wp-content/uploads/2023/01/63be94090c5629de82f64665_web3-image-scaled-1.jpg",
+      "image": "https://www.izotope.com/storage-cms/images/0/5/5/9/219550-1-eng-GB/29d086f58967-vocalsynth-2-interactive-visualizations-why.jpg",
       "link": "https://web3techstack.io",
       "date": "22 tháng 8, 2023"
     },
     {
-      "author": "MARIANA VELASCO",
+      "author": "XYZ",
+      "description": "Công nghệ tốt nhất cho phát triển Web 3.0!",
+      "image": "https://www.izotope.com/storage-cms/images/0/5/5/9/219550-1-eng-GB/29d086f58967-vocalsynth-2-interactive-visualizations-why.jpg",
+      "link": "https://web3techstack.io",
+      "date": "22 tháng 8, 2023"
+    },
+    {
+      "author": "XYZ",
       "description": "Khám phá tiềm năng của máy tính lượng tử trong doanh nghiệp hiện đại.",
       "image": "https://techeconomy.ng/wp-content/uploads/2023/05/Quantum-Computing-Exploring-the-Potential-of-Next-Generation-Computing-.jpg",
       "link": "https://quantumfuture.tech",
       "date": "25 tháng 8, 2023"
     },
     {
-      "author": "KAI WEN",
+      "author": "XYZ",
       "description": "Sức mạnh biến đổi của AI trong ngành y tế.",
       "image": "https://ehealth.eletsonline.com/wp-content/uploads/2019/06/Artificial-Intelligence-1024x682.jpeg",
       "link": "https://aihealthrevolution.net",
@@ -161,23 +178,23 @@
   ],
   "Team": [
     {
-      "name": "Thiên Nguyên",
-      "designation": "Nhà sáng lập và Giám đốc điều hành",
+      "name": "XYZ",
+      "designation": "lorem ipsum dolor amet",
       "image": "../../../public/ProfileImages/p1.png"
     },
     {
-      "name": "Mạnh Trần",
-      "designation": "Kỹ sư Web3",
+      "name": "XYZ",
+      "designation": "lorem ipsum dolor amet",
       "image": "../../../public/ProfileImages/p3.png"
     },
     {
-      "name": "Dip Karmakar",
-      "designation": "Nghiên cứu cấp cao Defi và Web3",
+      "name": "XYZ",
+      "designation": "lorem ipsum dolor amet",
       "image": "../../../public/ProfileImages/p4.png"
     },
     {
-      "name": "Syed Musavir Chishti",
-      "designation": "Chuyên gia tư vấn công nghệ cao cấp",
+      "name": "XYZ",
+      "designation": "lorem ipsum dolor amet",
       "image": "../../../public/ProfileImages/p2.png"
     }
   ],
@@ -222,7 +239,7 @@
       "link": "#"
     }
   ],
-  "FooterTitle": "THEO DÕI BẢN TIN CỦA CHÚNG TÔI",
+  "FooterTitle": "lorem ipsum dolor amet",
   "Footerinput": "Nhập địa chỉ email của bạn",
   "FooterButton": "Bắt đầu",
   "FooterDecription": "Lorem ipsum dolor sit amet | consectetur adipiscing elit.",

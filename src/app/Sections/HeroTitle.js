@@ -29,7 +29,7 @@ function HeroTitle({params, title}) {
             <h2 style={{color:'white' , marginBottom:'auto', marginTop:'auto'}}>{t?.TitleMainFrom}</h2>
             </span>
             <span style={{display:'flex'}}>  <h2 style={{color:'white'}}>{t?.TitleMainTraditional}</h2>
-            <h3 className="max-w-full uppercase styled-border m-auto lg:m-0 md:m-0 sm:m-0"><span style={{padding:'10px 10px'}}>{t?.TitleMainWeb}<span style={{color:'#E2255E'}}>{t?.TitleMain3}</span></span></h3>
+            <h3 className="max-w-full uppercase styled-border m-auto lg:m-0 md:m-0 sm:m-0 uplift-element"><span style={{padding:'10px 10px'}}>{t?.TitleMainWeb}<span style={{color:'#E2255E'}}>{t?.TitleMain3}</span></span></h3>
             </span>
            
           </div>

@@ -5,22 +5,22 @@ const team = [
   {
     name: "XYZ",
     designation: "founder & ceo",
-    image: require("@/../public/ProfileImages/pro1.png"),
+    image: require("@/../public/ProfileImages/3d-illustration-teenager-with-funny-face-glasses.jpg"),
   },
   {
     name: "XYZ",
     designation: "Web3 Engineer",
-    image: require("@/../public/ProfileImages/pro2.png"),
+    image: require("@/../public/ProfileImages/3d-illustration-teenager-with-funny-face-glasses.jpg"),
   },
   {
     name: "XYZ",
     designation: "Senior research Defi and Web3",
-    image: require("@/../public/ProfileImages/pro3.png"),
+    image: require("@/../public/ProfileImages/3d-illustration-teenager-with-funny-face-glasses.jpg"),
   },
   {
     name: "XYZ",
     designation: "Senior Tech Consultant",
-    image: require("@/../public/ProfileImages/pro4.png"),
+    image: require("@/../public/ProfileImages/3d-illustration-teenager-with-funny-face-glasses.jpg"),
   },
 ]
 function ProfileCard({index, profile }) {

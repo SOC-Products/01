@@ -25,7 +25,7 @@ function SwapSection(params) {
   const t = translations[locale];
   return (
     <div className="w-[95%] m-auto relative z-10 ">
-      <h3 className="max-w-full uppercase styled-border p-auto m-auto lg:m-0 md:m-0 sm:m-0 text-center">
+      <h3 id="styled-border" className="max-w-full uppercase styled-border p-auto m-auto lg:m-0 md:m-0 sm:m-0 text-center">
         {t?.TitleSwap}
       </h3>
       {/* <Swapzone /> */}

@@ -180,6 +180,41 @@ body {
   background-repeat: no-repeat; /* Prevents the image from repeating */
   background-position: center center;
 }
+/* .styled-border, .styled-border1, .styled-border2, .styled-border3 {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 14px 20px;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  font-family: Violetsans, Arial, sans-serif;
+  font-size: 64px;
+  width: fit-content;
+  background-position: center center;
+  white-space: nowrap;
+  
+} */
+
+@media (max-width: 640px) {
+  #styled-border {
+    width: 100%; 
+    padding: 10px 5px;
+    font-size: 36px; 
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+  }
+}
+/* @media (max-width: 640px) {
+   .styled-border1, .styled-border2, .styled-border3 {
+    width: 100%; 
+    padding: 10px 5px;
+    font-size: 36px; 
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+  }
+} */
 
 .styled-border1 {
   background-image: url(./SVGS/bgheading-wider.svg);
@@ -211,7 +246,9 @@ body {
   background-position: center;
   background-size: 10vh 10vh;
 }
-
+.uplift-element {
+  transform: translate(8px, -30px) ; /* Adjust this value as needed */
+}
 
 /* //////////////////////////Dropdown//////////////////////////// */
 

@@ -52,39 +52,39 @@
   "sendMessageButton": "Enviar Mensaje",
   "solutions": [
     {
-      "name": "Desarrollo de aplicaciones",
+      "name": "Lorem ipsum dolor",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
       "links": [
         {
-          "name": "Ninja Warriors Meta",
+          "name": "Lorem ipsum ",
           "link": "https://www.ninjawarriorsmeta.com/"
         },
         {
-          "name": "Ninja Squad",
+          "name": "Lorem ipsum ",
           "link": "https://ninjasquad.co/"
         }
       ]
     },
     {
-      "name": "Desarrollo web",
+      "name": "Lorem ipsum dolor",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
       "links": [
         {
-          "name": "Midas Safety",
+          "name": "Lorem ipsum ",
           "link": "https://www.midassafety.com/products/gloves/dipped-seamless/nft-regular/"
         },
         {
-          "name": "Ninja Squad",
+          "name": "Lorem ipsum ",
           "link": "https://ninjasquad.co/"
         }
       ]
     },
     {
-      "name": "Desarrollo de cadena de bloques",
+      "name": "Lorem ipsum dolor",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
       "links": [
         {
-          "name": "Nft Cars",
+          "name": "Lorem ipsum ",
           "link": "https://nftcars.me/"
         }
       ]
@@ -93,33 +93,43 @@
   "ViewLiveProject": "Ver proyecto en vivo",
   "recentWork": [
     {
-      "name": "VoxSynth - Herramienta de Clonación de Voz",
+      "name": "Lorem ipsum dolor amit",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "image": "https://www.izotope.com/storage-cms/images/0/5/5/9/219550-1-eng-GB/29d086f58967-vocalsynth-2-interactive-visualizations-why.jpg",
       "link": "https://voxsynth.io",
       "tags": [
-        "Clonación de Voz",
-        "Procesamiento de Audio"
+        "Lorem ipsum ",
+        "dolor amit"
       ]
     },
     {
-      "name": "TextSumm - Herramienta de Resumen Avanzado",
+      "name": "Lorem ipsum dolor amit",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "image": "https://www.izotope.com/storage-cms/images/0/5/5/9/219550-1-eng-GB/29d086f58967-vocalsynth-2-interactive-visualizations-why.jpg",
+      "link": "https://voxsynth.io",
+      "tags": [
+        "Lorem ipsum ",
+        "dolor amit"
+      ]
+    },
+    {
+      "name": "Lorem ipsum dolor amito",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "image": "https://repository-images.githubusercontent.com/216241997/f4108980-9e9d-11ea-8e7c-816b255395a9",
       "link": "https://textsumm.ai",
       "tags": [
-        "NLP",
-        "Resumen de Texto"
+        "Lorem ipsum ",
+        "dolor amit"
       ]
     },
     {
-      "name": "VisRecog - Detector de Objetos en Tiempo Real",
+      "name": "Lorem ipsum dolor amit",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "image": "https://assets.website-files.com/6390c443fe95660a5e9a4a2b/6390cf8ec81424b8d5722600_Vix_Logo-18.png",
       "link": "https://visrecog.tech",
       "tags": [
-        "Detección de Objetos",
-        "Visión por Computadora"
+        "Lorem ipsum ",
+        "dolor amit"
       ]
     }
   ],
@@ -128,31 +138,38 @@
   "ProcessStep2": "Paso 2",
   "ProcessStep3": "Paso 3",
   "ProcessStep4": "Paso 4",
-  "ProcessResearch": "Investigación",
-  "ProcessIdeate": "Idear",
-  "ProcessPrototype": "Prototipo",
-  "ProcessTest": "Prueba",
-  "SwapDecription": "INTERCAMBIO DE TOKENS AL INSTANTE",
+  "ProcessResearch": "Lorem  dolor",
+  "ProcessIdeate": "ipsum",
+  "ProcessPrototype": "dolor",
+  "ProcessTest": "amit",
+  "SwapDecription": "Lorem ipsum dolor amit",
   "SwapConnectWallet": "Conectar billetera",
   "ArticalTitle": "Artículos recientes",
   "Articles": [
     {
       "author": "XYZ",
-      "description": "¡La mejor tecnología para el desarrollo de Web 3.0!",
-      "image": "https://tecusher.com/wp-content/uploads/2023/01/63be94090c5629de82f64665_web3-image-scaled-1.jpg",
+      "description": "Lorem ipsum dolor amit ,consectator",
+      "image": "https://www.izotope.com/storage-cms/images/0/5/5/9/219550-1-eng-GB/29d086f58967-vocalsynth-2-interactive-visualizations-why.jpg",
       "link": "https://web3techstack.io",
       "date": "22 de agosto de 2023"
     },
     {
-      "author": "MARIANA VELASCO",
-      "description": "Explorando el potencial de la computación cuántica en empresas modernas.",
+      "author": "XYZ",
+      "description": "Lorem ipsum dolor amit ,consectator",
+      "image": "https://www.izotope.com/storage-cms/images/0/5/5/9/219550-1-eng-GB/29d086f58967-vocalsynth-2-interactive-visualizations-why.jpg",
+      "link": "https://web3techstack.io",
+      "date": "22 de agosto de 2023"
+    },
+    {
+      "author": "XYZ",
+      "description": "Lorem ipsum dolor amit ,consectator.",
       "image": "https://techeconomy.ng/wp-content/uploads/2023/05/Quantum-Computing-Exploring-the-Potential-of-Next-Generation-Computing-.jpg",
       "link": "https://quantumfuture.tech",
       "date": "25 de agosto de 2023"
     },
     {
-      "author": "KAI WEN",
-      "description": "El poder transformador de la IA en el sector sanitario.",
+      "author": "XYZ",
+      "description": "Lorem ipsum dolor amit ,consectator",
       "image": "https://ehealth.eletsonline.com/wp-content/uploads/2019/06/Artificial-Intelligence-1024x682.jpeg",
       "link": "https://aihealthrevolution.net",
       "date": "28 de agosto de 2023"
@@ -160,22 +177,22 @@
   ],
   "Team": [
     {
-      "name": "Thien Nguyen",
-      "designation": "fundador y director ejecutivo",
+      "name": "XYZ",
+      "designation": "Lorem ipsum dolor amit ,consectator",
       "image": "../../../public/ProfileImages/p1.png"
     },
     {
-      "name": "Manh Tran",
-      "designation": "Ingeniero Web3",
+      "name": "XYZ",
+      "designation": "Lorem ipsum dolor amit ,consectator",
       "image": "../../../public/ProfileImages/p3.png"
     },
     {
-      "name": "Dip Karmakar",
+      "name": "XYZ",
       "designation": "Investigador senior en Defi y Web3",
       "image": "../../../public/ProfileImages/p4.png"
     },
     {
-      "name": "Syed Musavir Chishti",
+      "name": "XYZ",
       "designation": "Consultor tecnológico senior",
       "image": "../../../public/ProfileImages/p2.png"
     }

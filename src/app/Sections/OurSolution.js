@@ -21,7 +21,7 @@ function OurSolution(params) {
 
   return (
     <div className="w-[95%] m-auto relative z-10 ">
-      <h3 className="max-w-full uppercase styled-border m-auto lg:m-0 md:m-0 sm:m-0">{t?.TitleSolution}</h3>
+      <h3 id="styled-border" className="max-w-full uppercase styled-border m-auto lg:m-0 md:m-0 sm:m-0">{t?.TitleSolution}</h3>
       <div
         style={{
           background: "rgba(0,0,0,.1)",
