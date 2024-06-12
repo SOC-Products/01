@@ -34,7 +34,7 @@ function RecentWorks(params) {
   const scrollRef = useRef()
   return (
     <div className="w-[95%] m-auto relative z-10 ">
-      <h3 id="styled-border" className="max-w-full uppercase styled-border m-auto lg:m-0 md:m-0 sm:m-0">
+      <h3 className="max-w-full uppercase styled-border m-auto lg:m-0 md:m-0 sm:m-0">
         {t?.TitleRecent}
       </h3>
       <div className="flex gap-5 pt-20 flex-wrap-reverse justify-center sm:flex-wrap-reverse md:flex-nowrap">

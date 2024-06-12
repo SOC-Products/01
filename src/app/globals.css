@@ -195,26 +195,7 @@ body {
   
 } */
 
-@media (max-width: 640px) {
-  #styled-border {
-    width: 100%; 
-    padding: 10px 5px;
-    font-size: 36px; 
-    background-size: cover;
-    text-align: center;
-    justify-content: center;
-  }
-}
-/* @media (max-width: 640px) {
-   .styled-border1, .styled-border2, .styled-border3 {
-    width: 100%; 
-    padding: 10px 5px;
-    font-size: 36px; 
-    background-size: cover;
-    text-align: center;
-    justify-content: center;
-  }
-} */
+
 
 .styled-border1 {
   background-image: url(./SVGS/bgheading-wider.svg);
@@ -247,8 +228,12 @@ body {
   background-size: 10vh 10vh;
 }
 .uplift-element {
-  transform: translate(8px, -30px) ; /* Adjust this value as needed */
+  transform: translate(8px, -22px) ; /* Adjust this value as needed */
 }
+@media only screen and (max-width: 640px){
+.uplift-element {
+  transform: translate(8px, -13px) ; /* Adjust this value as needed */
+}}
 
 /* //////////////////////////Dropdown//////////////////////////// */
 
@@ -274,6 +259,21 @@ body {
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
  
 }
+/* @media (max-width: 640px) {
+  .styled-border1, .styled-border2 {
+   background-image: url(./SVGS/bgheading.svg)
+ } */
+/* } */
+/* @media (max-width: 640px) {
+  #styled-border {
+    width: 100%; 
+    padding: 10px 5px;
+    font-size: 25px; 
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+  }
+} */
 .input{
   background: transparent !important;
 }
