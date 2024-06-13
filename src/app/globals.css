@@ -261,14 +261,10 @@ body {
 }
 @media (min-width: 714px) and (max-width: 833px) {
   .target-span {
-      padding: 10px 0px;  /* Sets padding to 10px top and bottom, 0px left and right */
+      padding: 10px 0px !important; 
   }
 }
-/* @media (max-width: 640px) {
-  .styled-border1, .styled-border2 {
-   background-image: url(./SVGS/bgheading.svg)
- } */
-/* } */
+
 /* @media (max-width: 640px) {
   #styled-border {
     width: 100%; 

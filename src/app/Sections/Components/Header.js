@@ -56,90 +56,93 @@ const Header = ({ content, locales }) => {
         <h3>Excellez Design Express</h3>
       </div>
       {isSmallerThanSm ? (
-        <div className="w-full relative z-20">
-          <nav
-            className={`w-full  justify-center md:flex text-center fixed m-auto ${isMenuOpen ? "flex" : "hidden"
-              } sm:flex`}
-            style={{
-              background: "#0a090f",
-            }}
+    <div className="w-full relative z-20">
+      <nav
+        className={`w-full  justify-center md:flex text-center fixed m-auto ${isMenuOpen ? "flex" : "hidden"
+          } sm:flex`}
+        style={{
+          background: "#0a090f",
+        }}
+      >
+        <ul className="md:flex  p-0">
+          {navItems.map((item, index) => (
+            <li
+              key={index}
+              className={`cursor-pointer m-0 p-3 text-center ${pathname === item.path ? `text-[#E2255E]` : ``
+                }`}
+            >
+              <Link href={item.path} className="border-0 no-underline">
+                {item.label}
+              </Link>{" "}
+            </li>
+          ))}
+          <li
+            className="cursor-pointer m-0 p-5 text-[#E2255E]"
+            onClick={toggleMenu}
           >
-            <ul className="md:flex  p-0">
-              {navItems.map((item, index) => (
-                <li
-                  key={index}
-                  className={`cursor-pointer m-0 p-3 text-center ${pathname === item.path ? `text-[#E2255E]` : ``
-                    }`}
-                >
-                  <Link href={item.path} className="border-0 no-underline">
-                    {item.label}
-                  </Link>{" "}
-                </li>
-              ))}
-              <li
-                className="cursor-pointer m-0 p-5 text-[#E2255E]"
-                onClick={toggleMenu}
-              >
-                Close
-              </li>
-            </ul>
-          </nav>
-          {!isMenuOpen && (
-            <div className="text-right">
-              <DynamicButton
-                onClick={toggleMenu}
-                className="focus:outline-none m-auto text-center px-5"
-                type="button"
-                disabled={false}
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M4 6h16M4 12h16M4 18h16"
-                  />
-                </svg>
-              </DynamicButton>
-            </div>
-          )}
-        </div>
-      ) : (
-        <>
-          <nav className="flex flex-wrap">
-            <ul className="flex ">
-              {navItems.map((item) => (
-                <li
-                  key={item.path}
-                  className={`cursor-pointer m-0 sm:p-2 lg:p-5 md:p-2 ${pathname === item.path
-                    ? "border-b-2 border-[#E2255E] text-[#E2255E]"
-                    : ""
-                    }`}
-                >
-                  <Link href={item.path} className="border-0 no-underline">
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
-          <LanguageSelector currentLocale={locales} />
-          <div className="cursor-pointer mb-2 sm:p-2 lg:p-5 md:p-2">
-            <input
-              type="submit"
-              value={t?.getstart}
-              data-wait="Please wait..."
-              className="submit-button-3 w-button py-0"
-            ></input>
+            Close
+          </li>
+        </ul>
+      </nav>
+      {!isMenuOpen && (
+        <div className="text-right">
+           <LanguageSelector currentLocale={locales} />
+          <DynamicButton
+            onClick={toggleMenu}
+            className="focus:outline-none m-auto text-center px-5"
+            type="button"
+            disabled={false}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </DynamicButton>
           </div>
-        </>
+         
       )}
+    </div>
+) : (
+    <>
+      <nav className="flex flex-wrap">
+        <ul className="flex ">
+          {navItems.map((item) => (
+            <li
+              key={item.path}
+              className={`cursor-pointer m-0 sm:p-2 lg:p-5 md:p-2 ${pathname === item.path
+                ? "border-b-2 border-[#E2255E] text-[#E2255E]"
+                : ""
+                }`}
+            >
+              <Link href={item.path} className="border-0 no-underline">
+                {item.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
+      <LanguageSelector currentLocale={locales} />
+      <div className="cursor-pointer mb-2 sm:p-2 lg:p-5 md:p-2">
+        <input
+          type="submit"
+          value={t?.getstart}
+          data-wait="Please wait..."
+          className="submit-button-3 w-button py-0"
+        ></input>
+      </div>
+    </>
+)}
+
     </header>
   );
 };
