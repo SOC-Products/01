@@ -1,3 +1,4 @@
+// rendering the our solutions heading on the page and also rendering solutioncard component
 import SolutionCard from "./Components/SolutionCard";
 
 import { useLanguage } from "@/contexts/LanguageContext";

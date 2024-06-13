@@ -1,5 +1,5 @@
 // import img from 'https://bafybeidu7gublkmkx7caxryogkgbaet65wx5yfzf7wh6vc7ic6ona76wxa.ipfs.w3s.link/Capture1-removebg-preview.png'
-
+// // renders the background grid in the project
 
 
 function GridBg({name}) {

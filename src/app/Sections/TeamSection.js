@@ -1,3 +1,4 @@
+// renders the faces behind excellez heading in the project
 import ProfileCard from "./Components/ProfileCard";
 import { useRef } from "react";
 import ScrollArrows from "./Components/ScrollArrows";

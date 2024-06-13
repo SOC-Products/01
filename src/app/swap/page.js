@@ -1,3 +1,4 @@
+// renders the swap page in the project
 "use client";
 import companyLogos from "../SVGS/CompanyLogos";
 import GridBg from "../Sections/Components/GridBg";

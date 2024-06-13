@@ -1,3 +1,4 @@
+// rendering the our recent work we've done with recentworkcard component too
 import RecentWorkCard from "./Components/RecentWorkCard";
 import { useRef } from "react";
 import ScrollArrows from "./Components/ScrollArrows";

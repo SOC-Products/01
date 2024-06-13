@@ -1,3 +1,5 @@
+// renders the recent work articles
+
 import { Arrow_45 } from "@/app/SVGS/Arrows";
 import { useLanguage } from "@/contexts/LanguageContext";
 import en from "../../../translations/en.json"

@@ -1,3 +1,4 @@
+// this component shows the people behind the team
 import { Arrow_45 } from "@/app/SVGS/Arrows";
 import Image from "next/image";
 import Plus_Image from "@/../public/plus.svg";

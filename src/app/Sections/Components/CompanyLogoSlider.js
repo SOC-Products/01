@@ -1,3 +1,4 @@
+// renders the company logo slider
 const { default: companyLogos } = require("@/app/SVGS/CompanyLogos");
 import { useLanguage } from "@/contexts/LanguageContext";
 import en from "../../../translations/en.json"

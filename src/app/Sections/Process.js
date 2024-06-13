@@ -1,3 +1,4 @@
+// renders the our solutions heading in the project
 import { useLanguage } from "@/contexts/LanguageContext";
 import en from "../../translations/en.json"
 import es from "../../translations/es.json"

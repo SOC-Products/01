@@ -1,3 +1,4 @@
+// renders the FAQ section
 import Plus_Image from "@/../public/plus.svg";
 import Image from "next/image";
 import { useState } from "react";

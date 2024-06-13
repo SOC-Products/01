@@ -6,7 +6,7 @@ export default function LanguageSelector() {
       setLocale(newLocale);
     };
     return (
-      <select style={{background:'transparent'}} onChange={changeLanguage} value={locale}>
+      <select style={{background:'transparent', marginBottom:'13px'}} onChange={changeLanguage} value={locale}>
         <option style={{background:'black'}} value="en">English</option>
         <option style={{background:'black'}} value="es">Spanish</option>
         <option style={{background:'black'}} value="fr">French</option>

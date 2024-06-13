@@ -102,7 +102,7 @@ body {
   }
 }
 .scroll-corner {
-  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  background: linear-gradient(to right, rgb(131, 92, 92), rgba(0, 0, 0, 0));
 }
 .styled-border {
   background-image: url(./SVGS/bgheading.svg);
@@ -258,6 +258,11 @@ body {
 
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
  
+}
+@media (min-width: 714px) and (max-width: 833px) {
+  .target-span {
+      padding: 10px 0px;  /* Sets padding to 10px top and bottom, 0px left and right */
+  }
 }
 /* @media (max-width: 640px) {
   .styled-border1, .styled-border2 {

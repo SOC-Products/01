@@ -1,3 +1,4 @@
+// renders the links to our social media 
 import { Arrow_45 } from "../SVGS/Arrows";
 import { useLanguage } from "@/contexts/LanguageContext";
 import en from "../../translations/en.json"

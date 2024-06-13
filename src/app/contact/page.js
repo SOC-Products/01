@@ -1,3 +1,4 @@
+// renders the contact page in the project
 "use client";
 import companyLogos from "../SVGS/CompanyLogos";
 import CompanyLogoSlider from "../Sections/Components/CompanyLogoSlider";

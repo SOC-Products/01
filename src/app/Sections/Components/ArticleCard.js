@@ -1,3 +1,4 @@
+''
 function ArticleCard({ article }) {
   return (
     <div className="border-y-2 border-x-2 border-[#061e5e] border-opacity-[0.6] mt-[30px] ">

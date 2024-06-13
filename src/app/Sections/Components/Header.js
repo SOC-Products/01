@@ -1,3 +1,4 @@
+// this component is rendering the header of the website which includes all the pages and translator
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
@@ -117,8 +118,8 @@ const Header = ({ content, locales }) => {
                 <li
                   key={item.path}
                   className={`cursor-pointer m-0 sm:p-2 lg:p-5 md:p-2 ${pathname === item.path
-                      ? "border-b-2 border-[#E2255E] text-[#E2255E]"
-                      : ""
+                    ? "border-b-2 border-[#E2255E] text-[#E2255E]"
+                    : ""
                     }`}
                 >
                   <Link href={item.path} className="border-0 no-underline">
@@ -129,7 +130,7 @@ const Header = ({ content, locales }) => {
             </ul>
           </nav>
           <LanguageSelector currentLocale={locales} />
-          <div className="cursor-pointer m-0 sm:p-2 lg:p-5 md:p-2">
+          <div className="cursor-pointer mb-2 sm:p-2 lg:p-5 md:p-2">
             <input
               type="submit"
               value={t?.getstart}

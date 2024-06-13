@@ -1,3 +1,4 @@
+// this component swaps the tokens from bnb to usdt and vice versa and also connects the wallet
 "use client"
 import { useEffect, useState } from 'react';
 import axios from 'axios';

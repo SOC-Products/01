@@ -1,3 +1,4 @@
+// renders the blog categories in the project
 import React, { useState , useEffect } from "react";
 import ArticleCard from "./ArticleCard";
 import Link from "next/link";

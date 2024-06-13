@@ -1,3 +1,4 @@
+// renders the services page in the project
 "use client";
 import GridBg from "../Sections/Components/GridBg";
 import Header from "../Sections/Components/Header";

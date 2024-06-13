@@ -1,3 +1,4 @@
+// renders the blog page in the project
 "use client";
 import "./../chain-gpt.css";
 import { Roboto_Mono } from "next/font/google";

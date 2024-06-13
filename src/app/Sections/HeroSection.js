@@ -1,3 +1,4 @@
+//renders the main heading of the project and the technologies
 import HeroTitle from "./HeroTitle";
 import { Roboto_Mono } from "next/font/google";
 import ServicesList from "./ServicesList";

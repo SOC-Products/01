@@ -1,3 +1,4 @@
+// renders the latest articles heading in the project with latest articlecards comopnent
 import ArticleCard from "./Components/ArticleCard";
 import ScrollArrows from "./Components/ScrollArrows";
 import { useRef } from "react";
