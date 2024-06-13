@@ -1,33 +1,21 @@
 import { useEffect, useState } from "react";
-import Image from "next/image";
-import Logo from "@/../public/logo.svg";
-import { useRouterm, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
-
 import { useLanguage } from "@/contexts/LanguageContext";
 import en from "../../../translations/en.json"
 import es from "../../../translations/es.json"
 import fr from "../../../translations/fr.json"
 import vi from "../../../translations/vi.json"
-const translations = {
-  en,
-  es,
-  fr,
-  vi
-}
-
-
 import LanguageSelector from "./LanguageSelector";
 import DynamicButton from "./DynamicButton";
+const translations = { en, es, fr, vi }
 
 const Header = ({ content, locales }) => {
   const { locale } = useLanguage();
   const t = translations[locale];
-
-
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSmallerThanSm, setIsSmallerThanSm] = useState(
-    typeof window !=="undefined" && window?.innerWidth < 800
+    typeof window !== "undefined" && window?.innerWidth < 800
   );
   const pathname = usePathname();
 
@@ -35,7 +23,7 @@ const Header = ({ content, locales }) => {
     setIsMenuOpen(!isMenuOpen);
   };
   function isScreenSmallerThanSm() {
-    return typeof window !=="undefined" && window.innerWidth < 800; // Assuming the sm breakpoint is 640px
+    return typeof window !== "undefined" && window.innerWidth < 800; // Assuming the sm breakpoint is 640px
   }
   useEffect(() => {
     function handleResize() {
@@ -48,7 +36,7 @@ const Header = ({ content, locales }) => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
-  console.log(pathname);
+
   const navItems = [
     { path: "/", label: t.navHome },
     { path: "/services", label: t.navServices },
@@ -62,25 +50,15 @@ const Header = ({ content, locales }) => {
         `flex justify-between items-center overflow-hidden w-full relative z-20 ` +
         (isMenuOpen && isSmallerThanSm ? "flex-col items-center fixed bg-[#0a090f]" : "")
       }
-      
     >
-      {/* <div className="text-xl font-bold text-left p-10">
-        <Image
-          src={Logo}
-          alt="logo"
-          className="h-[32px] min-w-[150px] w-auto object-contain text-left"
-        />
-      </div> */}
       <div className="text-xl font-bold text-left p-10">
         <h3>Excellez Design Express</h3>
       </div>
-
       {isSmallerThanSm ? (
         <div className="w-full relative z-20">
           <nav
-            className={`w-full  justify-center md:flex text-center fixed m-auto ${
-              isMenuOpen ? "flex" : "hidden"
-            } sm:flex`}
+            className={`w-full  justify-center md:flex text-center fixed m-auto ${isMenuOpen ? "flex" : "hidden"
+              } sm:flex`}
             style={{
               background: "#0a090f",
             }}
@@ -89,9 +67,8 @@ const Header = ({ content, locales }) => {
               {navItems.map((item, index) => (
                 <li
                   key={index}
-                  className={`cursor-pointer m-0 p-3 text-center ${
-                    pathname === item.path ? `text-[#E2255E]` : ``
-                  }`}
+                  className={`cursor-pointer m-0 p-3 text-center ${pathname === item.path ? `text-[#E2255E]` : ``
+                    }`}
                 >
                   <Link href={item.path} className="border-0 no-underline">
                     {item.label}
@@ -108,27 +85,27 @@ const Header = ({ content, locales }) => {
           </nav>
           {!isMenuOpen && (
             <div className="text-right">
-                 <DynamicButton
-        onClick={toggleMenu}
-        className="focus:outline-none m-auto text-center px-5"
-        type="button"
-        disabled={false}
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-6 w-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M4 6h16M4 12h16M4 18h16"
-          />
-        </svg>
-      </DynamicButton>
+              <DynamicButton
+                onClick={toggleMenu}
+                className="focus:outline-none m-auto text-center px-5"
+                type="button"
+                disabled={false}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              </DynamicButton>
             </div>
           )}
         </div>
@@ -139,11 +116,10 @@ const Header = ({ content, locales }) => {
               {navItems.map((item) => (
                 <li
                   key={item.path}
-                  className={`cursor-pointer m-0 sm:p-2 lg:p-5 md:p-2 ${
-                    pathname === item.path
+                  className={`cursor-pointer m-0 sm:p-2 lg:p-5 md:p-2 ${pathname === item.path
                       ? "border-b-2 border-[#E2255E] text-[#E2255E]"
                       : ""
-                  }`}
+                    }`}
                 >
                   <Link href={item.path} className="border-0 no-underline">
                     {item.label}
@@ -152,7 +128,7 @@ const Header = ({ content, locales }) => {
               ))}
             </ul>
           </nav>
-         <LanguageSelector currentLocale={locales}/>
+          <LanguageSelector currentLocale={locales} />
           <div className="cursor-pointer m-0 sm:p-2 lg:p-5 md:p-2">
             <input
               type="submit"
@@ -166,17 +142,13 @@ const Header = ({ content, locales }) => {
     </header>
   );
 };
-
 export default Header;
-
 
 export async function getStaticProps({ locale }) {
   let translatedContent = content;
-
   if (locale !== 'en') {
     translatedContent = await translate(content, locale);
   }
-
   return {
     props: { translatedContent, locale }
   };

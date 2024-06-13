@@ -2,7 +2,6 @@
 import './globals.css'
 import { LanguageProvider } from '@/contexts/LanguageContext'
 import { Inter } from 'next/font/google'
-
 import { EthereumClient, w3mConnectors, w3mProvider } from '@web3modal/ethereum'
 import { Web3Modal } from '@web3modal/react'
 import { configureChains, createConfig, WagmiConfig } from 'wagmi'
@@ -18,23 +17,17 @@ const wagmiConfig = createConfig({
   publicClient
 })
 const ethereumClient = new EthereumClient(wagmiConfig, chains)
-
 const inter = Inter({ subsets: ['latin'] })
-
-// export const metadata = {
-//   title: 'Tech Young',
-//   description: 'Unlock The Power Of Technology FromTraditional To Web3',
-// }
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <LanguageProvider>
         <body className={inter.className}>
-           <WagmiConfig config={wagmiConfig}>
-              {children}
-            </WagmiConfig>
-            <Web3Modal projectId={projectId} ethereumClient={ethereumClient} />
+          <WagmiConfig config={wagmiConfig}>
+            {children}
+          </WagmiConfig>
+          <Web3Modal projectId={projectId} ethereumClient={ethereumClient} />
         </body>
       </LanguageProvider>
     </html>

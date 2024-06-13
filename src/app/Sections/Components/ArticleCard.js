@@ -1,5 +1,3 @@
-import { Arrow_45 } from "@/app/SVGS/Arrows";
-
 function ArticleCard({ article }) {
   return (
     <div className="border-y-2 border-x-2 border-[#061e5e] border-opacity-[0.6] mt-[30px] ">
@@ -9,7 +7,7 @@ function ArticleCard({ article }) {
 
       <div className="w-full h-[200px] p-[20px] recent-bg flex justify-center items-center ">
         <div className="workimage w-[290px] bg-gray-800 min-h-[165px]">
-          <img src={article.image} alt=".."/>
+          <img src={article.image} alt=".." />
         </div>
       </div>
       <div className="px-5">

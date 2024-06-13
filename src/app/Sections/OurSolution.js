@@ -5,18 +5,12 @@ import en from "../../translations/en.json"
 import es from "../../translations/es.json"
 import fr from "../../translations/fr.json"
 import vi from "../../translations/vi.json"
-const translations = {
-  en,
-  es,
-  fr,
-  vi
-}
+const translations = { en, es, fr, vi }
 
 function OurSolution(params) {
 
   const { locale } = useLanguage();
   const t = translations[locale];
-
   const solutions = t?.solutions;
 
   return (
@@ -26,7 +20,7 @@ function OurSolution(params) {
         style={{
           background: "rgba(0,0,0,.1)",
           backdropFilter: "blur(24px)",
-          width:'auto'
+          width: 'auto'
         }}
       >
         {solutions?.map((e, i) => (

@@ -4,12 +4,7 @@ import en from "../../../translations/en.json"
 import es from "../../../translations/es.json"
 import fr from "../../../translations/fr.json"
 import vi from "../../../translations/vi.json"
-const translations = {
-  en,
-  es,
-  fr,
-  vi
-}
+const translations = { en, es, fr, vi }
 
 function SolutionCard({ solution, index }) {
 
@@ -28,7 +23,7 @@ function SolutionCard({ solution, index }) {
         <p>{solution.description}</p>
       </div>
       <div className="flex-[.4] flex-col flex border-x-2 border-[#061e5e] border-opacity-[0.7] py-5 min-w-[300px]  mx-auto">
-        
+
         {solution?.links?.map((e, i) => (
           <div
             key={i}
@@ -36,11 +31,11 @@ function SolutionCard({ solution, index }) {
           >
             <p className="flex-1 flex w-full items-center text-left m-0">{e.name}</p>
             <p className="flex-1 flex justify-center items-center gap-2 w-full p-3 text-center uppercase m-0">
-              {t?.ViewLiveProject} <a href={e.link} target="_blank">{Arrow_45}</a> 
+              {t?.ViewLiveProject} <a href={e.link} target="_blank">{Arrow_45}</a>
             </p>
           </div>
         ))}
-        
+
       </div>
     </div>
   );

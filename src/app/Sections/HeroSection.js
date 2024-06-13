@@ -1,26 +1,16 @@
 import HeroTitle from "./HeroTitle";
-
 import { Roboto_Mono } from "next/font/google";
 import ServicesList from "./ServicesList";
-import companyLogos from "../SVGS/CompanyLogos";
 import CompanyLogoSlider from "./Components/CompanyLogoSlider";
-
 import { useLanguage } from "@/contexts/LanguageContext";
 import en from "../../translations/en.json"
 import es from "../../translations/es.json"
 import fr from "../../translations/fr.json"
 import vi from "../../translations/vi.json"
-const translations = {
-  en,
-  es,
-  fr,
-  vi
-}
-
+const translations = { en, es, fr, vi }
 
 const roboto_mono = Roboto_Mono({ subsets: ["latin"] });
-function HeroSection({ firstStage , title }) {
-  const companyLogosList = companyLogos;
+function HeroSection({ firstStage, title }) {
   const { locale } = useLanguage();
   const t = translations[locale];
   return (
@@ -29,7 +19,6 @@ function HeroSection({ firstStage , title }) {
         <div className="flex-1">
           <div className="flex w-full min-w-[300px] justify-center h-[50vh]">
             <HeroTitle title={title} />
- 
           </div>
         </div>
         <div className="flex-1 w-full m-auto min-w-[300px]">
@@ -70,7 +59,7 @@ function HeroSection({ firstStage , title }) {
           <p
             className={`px-5 py-1 border-2 border-white uppercase ${roboto_mono.className}`}
           >
-          {t?.heroQuet}
+            {t?.heroQuet}
           </p>
         </div>
         <div className="flex-1 w-full">

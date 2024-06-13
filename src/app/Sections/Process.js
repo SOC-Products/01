@@ -1,19 +1,9 @@
-import Image from "next/image";
-import RecentWorkCard from "./Components/RecentWorkCard";
-import { Arrow_Right } from "../SVGS/Arrows";
-
 import { useLanguage } from "@/contexts/LanguageContext";
 import en from "../../translations/en.json"
 import es from "../../translations/es.json"
 import fr from "../../translations/fr.json"
 import vi from "../../translations/vi.json"
-const translations = {
-  en,
-  es,
-  fr,
-  vi
-}
-
+const translations = { en, es, fr, vi }
 
 function Process(params) {
   const { locale } = useLanguage();
@@ -45,30 +35,29 @@ function Process(params) {
           </div>
           <div className="w-full ml-5 my-2">
             <p className="uppercase text-[10px] m-0 border-t-2 border-x-2 border-[#061e5e] border-opacity-[.7] w-fit px-2">
-            {t?.ProcessStep2}
+              {t?.ProcessStep2}
             </p>
             <h3 className=" border-2  border-[#061e5e] border-opacity-[.7] text-center m-0 p-2">
-            {t?.ProcessIdeate}
+              {t?.ProcessIdeate}
             </h3>
           </div>
           <div className="w-full my-5">
             <p className="uppercase text-[10px] m-0 border-t-2 border-x-2 border-[#061e5e] border-opacity-[.7] w-fit px-2">
-            {t?.ProcessStep3}
+              {t?.ProcessStep3}
             </p>
             <h3 className=" border-y-2 border-l-2 border-[#061e5e] border-opacity-[.7] text-center m-0 p-2">
-            {t?.ProcessPrototype}
+              {t?.ProcessPrototype}
             </h3>
           </div>
           <div className="w-full ml-5 my-5">
             <p className="uppercase text-[10px] m-0 border-t-2 border-x-2 border-[#061e5e] border-opacity-[.7] w-fit px-2">
-            {t?.ProcessStep4}
+              {t?.ProcessStep4}
             </p>
             <h3 className=" border-2 border-[#061e5e] border-opacity-[.7] text-center m-0 p-2">
-            {t?.ProcessTest}
+              {t?.ProcessTest}
             </h3>
           </div>
         </div>
-
         <div
           className="flex hide-scrollbar1 gap-y-5 w-full overflow-x-auto"
           style={{

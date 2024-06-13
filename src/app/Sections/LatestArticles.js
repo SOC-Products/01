@@ -1,36 +1,20 @@
-import Image from "next/image";
-import { Arrow_Right } from "../SVGS/Arrows";
 import ArticleCard from "./Components/ArticleCard";
 import ScrollArrows from "./Components/ScrollArrows";
 import { useRef } from "react";
-
-import { useLanguage } from "@/contexts/LanguageContext"; 
+import { useLanguage } from "@/contexts/LanguageContext";
 import en from "../../translations/en.json"
 import es from "../../translations/es.json"
 import fr from "../../translations/fr.json"
 import vi from "../../translations/vi.json"
-const translations = {
-  en,
-  es,
-  fr,
-  vi
-}
-
-
+const translations = { en, es, fr, vi }
 
 function LatestArticles(params) {
 
   const { locale } = useLanguage();
   const t = translations[locale];
-
   const articles = t?.Articles;
-  // {
-  //   author: "XYZ",
-  //   description: "Best tech stack for Web 3.0 development!",
-  //   link: "#",
-  //   date: "August 22, 2023",
-  // }
-  const scrollRef = useRef()
+  const scrollRef = useRef();
+
   return (
     <div className="w-[95%] m-auto relative z-10 ">
       <h3 className="max-w-full uppercase styled-border styled-border1 m-auto lg:m-0 md:m-0 sm:m-0">

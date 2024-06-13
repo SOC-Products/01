@@ -1,17 +1,9 @@
-import { Arrow_45 } from "../SVGS/Arrows";
-
 import { useLanguage } from "@/contexts/LanguageContext";
 import en from "../../translations/en.json"
 import es from "../../translations/es.json"
 import fr from "../../translations/fr.json"
 import vi from "../../translations/vi.json"
-const translations = {
-  en,
-  es,
-  fr,
-  vi
-}
-
+const translations = { en, es, fr, vi }
 
 function Footer({ footerRef }) {
 
@@ -29,16 +21,9 @@ function Footer({ footerRef }) {
             className="w-full border-b-2 border-[white] p-2 focus-visible:border-none"
             style={{ background: "none" }}
             type="email"
-            placeholder=  {t?.Footerinput}
+            placeholder={t?.Footerinput}
           />
         </div>
-        {/* <div className="w-[30%] text-center">
-          <div className="flex submit-button-3 p-0">
-            <p className="m-0"> </p>
-            {Arrow_45}
-          </div>
-
-        </div> */}
         <input
           type="submit"
           value={t?.FooterButton}
@@ -47,7 +32,7 @@ function Footer({ footerRef }) {
         ></input>
       </div>
       <p className="m-8 p-8 text-center">
-      {t?.FooterDecription}
+        {t?.FooterDecription}
       </p>
     </div>
   );

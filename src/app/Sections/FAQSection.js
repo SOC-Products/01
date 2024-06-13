@@ -1,25 +1,17 @@
 import Plus_Image from "@/../public/plus.svg";
 import Image from "next/image";
 import { useState } from "react";
-
 import { useLanguage } from "@/contexts/LanguageContext";
 import en from "../../translations/en.json"
 import es from "../../translations/es.json"
 import fr from "../../translations/fr.json"
 import vi from "../../translations/vi.json"
-const translations = {
-  en,
-  es,
-  fr,
-  vi
-}
+const translations = { en, es, fr, vi }
 
 function FAQSection(params) {
   const [opened, setOpened] = useState(-1);
-
   const { locale } = useLanguage();
   const t = translations[locale];
-
   const questions = t?.questions
 
   return (

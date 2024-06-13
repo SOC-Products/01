@@ -23,7 +23,7 @@ const team = [
     image: require("@/../public/ProfileImages/3d-illustration-teenager-with-funny-face-glasses.jpg"),
   },
 ]
-function ProfileCard({index, profile }) {
+function ProfileCard({ index, profile }) {
 
   return (
     <div className="border-y-2 border-l-2 border-[#061e5e] border-opacity-[0.6] ">

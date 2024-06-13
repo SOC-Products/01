@@ -1,19 +1,10 @@
 import { Arrow_45 } from "@/app/SVGS/Arrows";
-
-import { useLanguage } from "@/contexts/LanguageContext"; 
+import { useLanguage } from "@/contexts/LanguageContext";
 import en from "../../../translations/en.json"
 import es from "../../../translations/es.json"
 import fr from "../../../translations/fr.json"
 import vi from "../../../translations/vi.json"
-const translations = {
-  en,
-  es,
-  fr,
-  vi
-}
-
-
-
+const translations = { en, es, fr, vi }
 
 function RecentWorkCard({ recentWork }) {
 

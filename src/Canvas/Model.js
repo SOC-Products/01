@@ -1,9 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Clone, useAnimations, useGLTF } from "@react-three/drei";
-import { useFrame, useLoader } from "@react-three/fiber";
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-import gsap from "gsap";
-import { Vector3 } from "three";
+import {  useAnimations, useGLTF } from "@react-three/drei";
+import { useFrame } from "@react-three/fiber";
 
 export default function Model(props) {
   const groupRef = useRef();

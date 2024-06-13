@@ -1,18 +1,9 @@
-import Image from "next/image";
-import HERO_TITLE from "@/../public/herotitle.svg"
-
 import { useLanguage } from "@/contexts/LanguageContext";
 import en from "../../translations/en.json"
 import es from "../../translations/es.json"
 import fr from "../../translations/fr.json"
 import vi from "../../translations/vi.json"
-const translations = {
-  en,
-  es,
-  fr,
-  vi
-}
-
+const translations = { en, es, fr, vi }
 
 function HeroTitle({params, title}) {
 
@@ -31,10 +22,8 @@ function HeroTitle({params, title}) {
             <span style={{display:'flex'}}>  <h2 style={{color:'white'}}>{t?.TitleMainTraditional}</h2>
             <h3 className="max-w-full uppercase styled-border m-auto lg:m-0 md:m-0 sm:m-0 uplift-element"><span style={{padding:'10px 10px'}}>{t?.TitleMainWeb}<span style={{color:'#E2255E'}}>{t?.TitleMain3}</span></span></h3>
             </span>
-           
           </div>
-          {/* <Image src={HERO_TITLE} alt="hero-title" className="object-contain w-full h-[49vh] p-[16px]"  /> */}
-        </div>
+         </div>
       </div>
     </div>
   );

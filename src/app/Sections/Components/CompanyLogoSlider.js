@@ -4,12 +4,8 @@ import en from "../../../translations/en.json"
 import es from "../../../translations/es.json"
 import fr from "../../../translations/fr.json"
 import vi from "../../../translations/vi.json"
-const translations = {
-  en,
-  es,
-  fr,
-  vi
-}
+const translations = { en, es, fr, vi }
+
 function CompanyLogoSlider(params) {
   const companyLogosList = companyLogos;
   const { locale } = useLanguage();
